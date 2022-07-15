@@ -88,40 +88,42 @@ clearButton.addEventListener('click', () => {
 
 // DRAG AND DROP
 listPlaceholder.addEventListener('drag', (e) => {
-  if (e.target.classList.contains("task-text") === true) {
-    const task = e.target
-    task.addEventListener("dragstart", dragStart);
-  }
+
   if (e.target.tagName === 'LI') {
     const dragTarget = e.target
+    dragTarget.addEventListener("dragstart", dragStart);
     dragTarget.addEventListener("dragover", dragOver);
     dragTarget.addEventListener("drop", dragDrop);
   }
 });
 
 function dragStart() {
-  console.log("event: drag start");
   let dragStartIndex = [...this.classList];
-  dragStartIndex = dragStartIndex[dragStartIndex.length - 1];
-  console.log(dragStartIndex);
+  dragStartIndex = parseInt(dragStartIndex[dragStartIndex.length - 1], 10);
+  localStorage.setItem('startDragIndex', JSON.stringify(dragStartIndex));
 }
 
 function dragOver(e) {
-  console.log("event: dragover");
-  // console.log('Event: ', 'dragover');
   e.preventDefault();
 }
 
 function dragDrop() {
-  console.log("event: drop");
   let dragEndIndex = [...this.classList];
-  dragEndIndex = dragEndIndex[dragEndIndex.length - 1];
+  dragEndIndex = parseInt(dragEndIndex[dragEndIndex.length - 1], 10);
+  let dragStartIndex = JSON.parse(localStorage.getItem('startDragIndex'));
+  console.log("startIndex: ", dragStartIndex);
+  console.log("dropIndex: ", dragEndIndex);
   swapItems(dragStartIndex, dragEndIndex);
 }
 
 function swapItems(fromIndex, toIndex) {
-  const itemOne = listItems[fromIndex].querySelector('.task');
-  const itemTwo = listItems[toIndex].querySelector('.task');
+  let taskListArr = getArr();
+  taskListArr[fromIndex - 1].Index = toIndex;
+  taskListArr[toIndex - 1].Index = fromIndex;
+  taskListArr.sort((a, b) => a.Index - b.Index);
+  saveInLocalStorage(taskListArr);
+  clearList();
+  renderList();
 }
 
 
