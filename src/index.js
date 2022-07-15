@@ -6,11 +6,13 @@ import saveInLocalStorage from './modules/saveAtLocalStorage';
 import clearList from './modules/clearList';
 import renderList from './modules/renderList';
 import editTask from './modules/editTask';
+import updateStatus from './modules/updateStatus';
 
 // ------------ EVENT LISTENERS ------------
 // TRAGET DOM ELEMENTS
 const listPlaceholder = document.getElementById('list-placeholder');
 const addTaskBtn = document.getElementById('add-task-btn');
+const clearButton = document.getElementById('clear-btn');
 
 // ADD A TASK
 addTaskBtn.addEventListener('click', () => {
@@ -50,4 +52,39 @@ listPlaceholder.addEventListener('click', (e) => {
   }
 });
 
+// CHANGE STATUS OF CHECKBOX
+listPlaceholder.addEventListener('click', (e) => {
+  if (e.target.tagName === 'INPUT' && e.target.classList.contains('checkbox')) {
+    const checkbox = e.target;
+    const taskText = [...checkbox.nextElementSibling.classList];
+    if (taskText[0] !== 'done') {
+      taskText.unshift('done');
+      const classList = taskText.join(' ');
+      checkbox.nextElementSibling.classList = classList;
+    } else {
+      taskText.shift();
+      const classList = taskText.join(' ');
+      checkbox.nextElementSibling.classList = classList;
+    }
+    // taskText.classList.add("done");
+    const completed = checkbox.checked;
+    let index = [...checkbox.classList];
+    index = index[index.length - 1];
+    updateStatus(index, completed);
+  }
+});
+
+// CLEAR ALL SELECTED ITEMS
+clearButton.addEventListener('click', () => {
+  let taskListArr = getArr();
+  taskListArr = taskListArr.filter((task) => task.Completed !== true);
+  for (let i = 0; i < taskListArr.length; i += 1) {
+    taskListArr[i].Index = i + 1;
+  }
+  saveInLocalStorage(taskListArr);
+  clearList();
+  renderList();
+});
+
+// SHOW LIST ON HTML
 renderList();

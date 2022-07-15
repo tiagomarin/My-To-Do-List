@@ -95,6 +95,10 @@ main {
           border: none;
           height: 100%;
         }
+
+        .task-text.done {
+          text-decoration: line-through;
+        }
       }
 
       .actions {
