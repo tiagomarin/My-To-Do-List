@@ -1,34 +1,32 @@
 {
-  "hash": "c163375dd5fd61b03bee",
+  "hash": "6eac98ae4e634e9c0014",
   "version": "5.73.0",
-  "time": 52,
-  "builtAt": 1657847142507,
+  "time": 51,
+  "builtAt": 1657853155672,
   "publicPath": "auto",
   "outputPath": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/dist",
   "assetsByChunkName": {
     "index": [
-      "index.bundle.js",
-      "index.63d05e198bd6cff6de4f.hot-update.js"
+      "index.bundle.js"
     ],
     "runtime": [
-      "runtime.bundle.js",
-      "runtime.63d05e198bd6cff6de4f.hot-update.js"
+      "runtime.bundle.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
       "name": "index.bundle.js",
-      "size": 219833,
-      "emitted": true,
+      "size": 221019,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "javascriptModule": false,
         "related": {
           "sourceMap": "index.bundle.js.map"
         },
-        "size": 219833
+        "size": 221019
       },
       "chunkNames": [
         "index"
@@ -41,13 +39,13 @@
         {
           "type": "sourceMap",
           "name": "index.bundle.js.map",
-          "size": 257674,
-          "emitted": true,
+          "size": 259126,
+          "emitted": false,
           "comparedForEmit": false,
-          "cached": false,
+          "cached": true,
           "info": {
             "development": true,
-            "size": 257674
+            "size": 259126
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -73,9 +71,9 @@
       "type": "asset",
       "name": "runtime.bundle.js",
       "size": 45188,
-      "emitted": true,
+      "emitted": false,
       "comparedForEmit": false,
-      "cached": false,
+      "cached": true,
       "info": {
         "javascriptModule": false,
         "related": {
@@ -95,9 +93,9 @@
           "type": "sourceMap",
           "name": "runtime.bundle.js.map",
           "size": 43165,
-          "emitted": true,
+          "emitted": false,
           "comparedForEmit": false,
-          "cached": false,
+          "cached": true,
           "info": {
             "development": true,
             "size": 43165
@@ -124,61 +122,6 @@
     },
     {
       "type": "asset",
-      "name": "index.63d05e198bd6cff6de4f.hot-update.js",
-      "size": 1318,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "63d05e198bd6cff6de4f",
-        "related": {
-          "sourceMap": "index.63d05e198bd6cff6de4f.hot-update.js.map"
-        },
-        "size": 1318
-      },
-      "chunkNames": [
-        "index"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "index.63d05e198bd6cff6de4f.hot-update.js.map",
-          "size": 627,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 627
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "index"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "index"
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        "index"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
       "name": "index.html",
       "size": 938,
       "emitted": true,
@@ -195,94 +138,17 @@
       "chunks": [],
       "auxiliaryChunks": [],
       "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "runtime.63d05e198bd6cff6de4f.hot-update.js",
-      "size": 370,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "63d05e198bd6cff6de4f",
-        "related": {
-          "sourceMap": "runtime.63d05e198bd6cff6de4f.hot-update.js.map"
-        },
-        "size": 370
-      },
-      "chunkNames": [
-        "runtime"
-      ],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "filteredRelated": 0,
-      "related": [
-        {
-          "type": "sourceMap",
-          "name": "runtime.63d05e198bd6cff6de4f.hot-update.js.map",
-          "size": 265,
-          "emitted": true,
-          "comparedForEmit": false,
-          "cached": false,
-          "info": {
-            "development": true,
-            "size": 265
-          },
-          "chunkNames": [],
-          "chunkIdHints": [],
-          "auxiliaryChunkNames": [
-            "runtime"
-          ],
-          "auxiliaryChunkIdHints": [],
-          "related": {},
-          "chunks": [],
-          "auxiliaryChunks": [
-            "runtime"
-          ],
-          "isOverSizeLimit": false
-        }
-      ],
-      "chunks": [
-        "runtime"
-      ],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
-    },
-    {
-      "type": "asset",
-      "name": "runtime.63d05e198bd6cff6de4f.hot-update.json",
-      "size": 39,
-      "emitted": true,
-      "comparedForEmit": false,
-      "cached": false,
-      "info": {
-        "hotModuleReplacement": true,
-        "immutable": true,
-        "fullhash": "63d05e198bd6cff6de4f",
-        "size": 39
-      },
-      "chunkNames": [],
-      "chunkIdHints": [],
-      "auxiliaryChunkNames": [],
-      "auxiliaryChunkIdHints": [],
-      "related": {},
-      "chunks": [],
-      "auxiliaryChunks": [],
-      "isOverSizeLimit": false
     }
   ],
   "chunks": [
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 184243,
+      "size": 185429,
       "sizes": {
-        "javascript": 184243
+        "javascript": 185429
       },
       "names": [
         "index"
@@ -292,14 +158,12 @@
         "runtime"
       ],
       "files": [
-        "index.bundle.js",
-        "index.63d05e198bd6cff6de4f.hot-update.js"
+        "index.bundle.js"
       ],
       "auxiliaryFiles": [
-        "index.63d05e198bd6cff6de4f.hot-update.js.map",
         "index.bundle.js.map"
       ],
-      "hash": "d5352d2b6c096b5ec2f4",
+      "hash": "b93778cfcc7b7bac4420",
       "childrenByOrder": {},
       "id": "index",
       "siblings": [
@@ -421,9 +285,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 5491,
+          "size": 5576,
           "sizes": {
-            "javascript": 5491
+            "javascript": 5576
           },
           "built": false,
           "codeGenerated": false,
@@ -3802,14 +3666,14 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 3039,
+          "size": 4116,
           "sizes": {
-            "javascript": 3039
+            "javascript": 4116
           },
-          "built": false,
+          "built": true,
           "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": true,
+          "cached": false,
           "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/index.js",
           "name": "./src/index.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/index.js",
@@ -4444,9 +4308,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 833,
+          "size": 857,
           "sizes": {
-            "javascript": 833
+            "javascript": 857
           },
           "built": false,
           "codeGenerated": false,
@@ -4548,7 +4412,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderList",
-              "loc": "90:0-10",
+              "loc": "130:0-10",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4772,10 +4636,10 @@
           "sizes": {
             "javascript": 316
           },
-          "built": true,
-          "codeGenerated": true,
+          "built": false,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/updateStatus.js",
           "name": "./src/modules/updateStatus.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/updateStatus.js",
@@ -4932,7 +4796,7 @@
       ]
     },
     {
-      "rendered": true,
+      "rendered": false,
       "initial": true,
       "entry": true,
       "recorded": false,
@@ -4948,14 +4812,12 @@
         "runtime"
       ],
       "files": [
-        "runtime.bundle.js",
-        "runtime.63d05e198bd6cff6de4f.hot-update.js"
+        "runtime.bundle.js"
       ],
       "auxiliaryFiles": [
-        "runtime.63d05e198bd6cff6de4f.hot-update.js.map",
         "runtime.bundle.js.map"
       ],
-      "hash": "969bde9c292081aa3fd9",
+      "hash": "f5c84ecc681ee5c4f25a",
       "childrenByOrder": {},
       "id": "runtime",
       "siblings": [
@@ -4973,9 +4835,9 @@
             "runtime": 886
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/chunk loaded",
           "name": "webpack/runtime/chunk loaded",
           "nameForCondition": null,
@@ -5009,9 +4871,9 @@
             "runtime": 267
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/compat get default export",
           "name": "webpack/runtime/compat get default export",
           "nameForCondition": null,
@@ -5045,9 +4907,9 @@
             "runtime": 308
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/define property getters",
           "name": "webpack/runtime/define property getters",
           "nameForCondition": null,
@@ -5081,9 +4943,9 @@
             "runtime": 209
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get javascript update chunk filename",
           "name": "webpack/runtime/get javascript update chunk filename",
           "nameForCondition": null,
@@ -5117,9 +4979,9 @@
             "runtime": 93
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/get update manifest filename",
           "name": "webpack/runtime/get update manifest filename",
           "nameForCondition": null,
@@ -5153,9 +5015,9 @@
             "runtime": 54
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/getFullHash",
           "name": "webpack/runtime/getFullHash",
           "nameForCondition": null,
@@ -5189,9 +5051,9 @@
             "runtime": 221
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/global",
           "name": "webpack/runtime/global",
           "nameForCondition": null,
@@ -5225,9 +5087,9 @@
             "runtime": 88
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hasOwnProperty shorthand",
           "name": "webpack/runtime/hasOwnProperty shorthand",
           "nameForCondition": null,
@@ -5261,9 +5123,9 @@
             "runtime": 9347
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/hot module replacement",
           "name": "webpack/runtime/hot module replacement",
           "nameForCondition": null,
@@ -5297,9 +5159,9 @@
             "runtime": 15928
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/jsonp chunk loading",
           "name": "webpack/runtime/jsonp chunk loading",
           "nameForCondition": null,
@@ -5333,9 +5195,9 @@
             "runtime": 1516
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/load script",
           "name": "webpack/runtime/load script",
           "nameForCondition": null,
@@ -5369,9 +5231,9 @@
             "runtime": 274
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/make namespace object",
           "name": "webpack/runtime/make namespace object",
           "nameForCondition": null,
@@ -5405,9 +5267,9 @@
             "runtime": 35
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/nonce",
           "name": "webpack/runtime/nonce",
           "nameForCondition": null,
@@ -5441,9 +5303,9 @@
             "runtime": 867
           },
           "built": false,
-          "codeGenerated": true,
+          "codeGenerated": false,
           "buildTimeExecuted": false,
-          "cached": false,
+          "cached": true,
           "identifier": "webpack/runtime/publicPath",
           "name": "webpack/runtime/publicPath",
           "nameForCondition": null,
@@ -5607,14 +5469,14 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 3039,
+      "size": 4116,
       "sizes": {
-        "javascript": 3039
+        "javascript": 4116
       },
-      "built": false,
+      "built": true,
       "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": true,
+      "cached": false,
       "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/index.js",
       "name": "./src/index.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/index.js",
@@ -7837,9 +7699,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 833,
+      "size": 857,
       "sizes": {
-        "javascript": 833
+        "javascript": 857
       },
       "built": false,
       "codeGenerated": false,
@@ -7940,7 +7802,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderList",
-          "loc": "90:0-10",
+          "loc": "130:0-10",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8065,10 +7927,10 @@
       "sizes": {
         "javascript": 316
       },
-      "built": true,
-      "codeGenerated": true,
+      "built": false,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/updateStatus.js",
       "name": "./src/modules/updateStatus.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/updateStatus.js",
@@ -9326,9 +9188,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 5491,
+      "size": 5576,
       "sizes": {
-        "javascript": 5491
+        "javascript": 5576
       },
       "built": false,
       "codeGenerated": false,
@@ -10061,9 +9923,9 @@
         "runtime": 886
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/chunk loaded",
       "name": "webpack/runtime/chunk loaded",
       "nameForCondition": null,
@@ -10096,9 +9958,9 @@
         "runtime": 267
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/compat get default export",
       "name": "webpack/runtime/compat get default export",
       "nameForCondition": null,
@@ -10131,9 +9993,9 @@
         "runtime": 308
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/define property getters",
       "name": "webpack/runtime/define property getters",
       "nameForCondition": null,
@@ -10166,9 +10028,9 @@
         "runtime": 209
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get javascript update chunk filename",
       "name": "webpack/runtime/get javascript update chunk filename",
       "nameForCondition": null,
@@ -10201,9 +10063,9 @@
         "runtime": 93
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/get update manifest filename",
       "name": "webpack/runtime/get update manifest filename",
       "nameForCondition": null,
@@ -10236,9 +10098,9 @@
         "runtime": 54
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/getFullHash",
       "name": "webpack/runtime/getFullHash",
       "nameForCondition": null,
@@ -10271,9 +10133,9 @@
         "runtime": 221
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/global",
       "name": "webpack/runtime/global",
       "nameForCondition": null,
@@ -10306,9 +10168,9 @@
         "runtime": 88
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hasOwnProperty shorthand",
       "name": "webpack/runtime/hasOwnProperty shorthand",
       "nameForCondition": null,
@@ -10341,9 +10203,9 @@
         "runtime": 9347
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/hot module replacement",
       "name": "webpack/runtime/hot module replacement",
       "nameForCondition": null,
@@ -10376,9 +10238,9 @@
         "runtime": 15928
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/jsonp chunk loading",
       "name": "webpack/runtime/jsonp chunk loading",
       "nameForCondition": null,
@@ -10411,9 +10273,9 @@
         "runtime": 1516
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/load script",
       "name": "webpack/runtime/load script",
       "nameForCondition": null,
@@ -10446,9 +10308,9 @@
         "runtime": 274
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/make namespace object",
       "name": "webpack/runtime/make namespace object",
       "nameForCondition": null,
@@ -10481,9 +10343,9 @@
         "runtime": 35
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/nonce",
       "name": "webpack/runtime/nonce",
       "nameForCondition": null,
@@ -10516,9 +10378,9 @@
         "runtime": 867
       },
       "built": false,
-      "codeGenerated": true,
+      "codeGenerated": false,
       "buildTimeExecuted": false,
-      "cached": false,
+      "cached": true,
       "identifier": "webpack/runtime/publicPath",
       "name": "webpack/runtime/publicPath",
       "nameForCondition": null,
@@ -10556,32 +10418,16 @@
           "size": 45188
         },
         {
-          "name": "runtime.63d05e198bd6cff6de4f.hot-update.js",
-          "size": 370
-        },
-        {
           "name": "index.bundle.js",
-          "size": 219833
-        },
-        {
-          "name": "index.63d05e198bd6cff6de4f.hot-update.js",
-          "size": 1318
+          "size": 221019
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 266709,
+      "assetsSize": 266207,
       "auxiliaryAssets": [
         {
-          "name": "index.63d05e198bd6cff6de4f.hot-update.js.map",
-          "size": 627
-        },
-        {
           "name": "index.bundle.js.map",
-          "size": 257674
-        },
-        {
-          "name": "runtime.63d05e198bd6cff6de4f.hot-update.js.map",
-          "size": 265
+          "size": 259126
         },
         {
           "name": "runtime.bundle.js.map",
@@ -10589,7 +10435,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 301731,
+      "auxiliaryAssetsSize": 302291,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10608,32 +10454,16 @@
           "size": 45188
         },
         {
-          "name": "runtime.63d05e198bd6cff6de4f.hot-update.js",
-          "size": 370
-        },
-        {
           "name": "index.bundle.js",
-          "size": 219833
-        },
-        {
-          "name": "index.63d05e198bd6cff6de4f.hot-update.js",
-          "size": 1318
+          "size": 221019
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 266709,
+      "assetsSize": 266207,
       "auxiliaryAssets": [
         {
-          "name": "index.63d05e198bd6cff6de4f.hot-update.js.map",
-          "size": 627
-        },
-        {
           "name": "index.bundle.js.map",
-          "size": 257674
-        },
-        {
-          "name": "runtime.63d05e198bd6cff6de4f.hot-update.js.map",
-          "size": 265
+          "size": 259126
         },
         {
           "name": "runtime.bundle.js.map",
@@ -10641,7 +10471,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 301731,
+      "auxiliaryAssetsSize": 302291,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false

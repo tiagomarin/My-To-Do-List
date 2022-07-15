@@ -6,7 +6,7 @@ const renderList = () => {
   const listPlaceholder = document.getElementById('list-placeholder');
 
   for (let i = 0; i < taskListArr.length; i += 1) {
-    const task = `<li class="task" draggable="true">
+    const task = `<li class="task ${taskListArr[i].Index}" draggable="true">
       <div class="task info">
         <input class="checkbox ${taskListArr[i].Index}" type="checkbox">
         <input class="task-text ${taskListArr[i].Index}" type="text" value="${taskListArr[i].Description}"></input>

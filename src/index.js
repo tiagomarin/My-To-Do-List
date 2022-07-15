@@ -86,5 +86,45 @@ clearButton.addEventListener('click', () => {
   renderList();
 });
 
+// DRAG AND DROP
+listPlaceholder.addEventListener('drag', (e) => {
+  if (e.target.classList.contains("task-text") === true) {
+    const task = e.target
+    task.addEventListener("dragstart", dragStart);
+  }
+  if (e.target.tagName === 'LI') {
+    const dragTarget = e.target
+    dragTarget.addEventListener("dragover", dragOver);
+    dragTarget.addEventListener("drop", dragDrop);
+  }
+});
+
+function dragStart() {
+  console.log("event: drag start");
+  let dragStartIndex = [...this.classList];
+  dragStartIndex = dragStartIndex[dragStartIndex.length - 1];
+  console.log(dragStartIndex);
+}
+
+function dragOver(e) {
+  console.log("event: dragover");
+  // console.log('Event: ', 'dragover');
+  e.preventDefault();
+}
+
+function dragDrop() {
+  console.log("event: drop");
+  let dragEndIndex = [...this.classList];
+  dragEndIndex = dragEndIndex[dragEndIndex.length - 1];
+  swapItems(dragStartIndex, dragEndIndex);
+}
+
+function swapItems(fromIndex, toIndex) {
+  const itemOne = listItems[fromIndex].querySelector('.task');
+  const itemTwo = listItems[toIndex].querySelector('.task');
+}
+
+
+
 // SHOW LIST ON HTML
 renderList();
