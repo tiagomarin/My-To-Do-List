@@ -1,7 +1,7 @@
 {
-  "name": "My-To-Do-List",
+  "name": "webpack-boilerplate",
   "version": "1.0.0",
-  "description": "This app allows you to create a to-do-list where you can add remove and reorder items",
+  "description": "template with webpack set up",
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,15 +12,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tiago-Lelinski-Marin/My-To-Do-List.git"
+    "url": "git+https://github.com/Tiago-Lelinski-Marin/webpack-boilerplate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Tiago-Lelinski-Marin/My-To-Do-List/issues"
+    "url": "https://github.com/Tiago-Lelinski-Marin/webpack-boilerplate/issues"
   },
-  "homepage": "https://github.com/Tiago-Lelinski-Marin/My-To-Do-List",
+  "homepage": "https://tiago-lelinski-marin.github.io/My-To-Do-List/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.7.1",
