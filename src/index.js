@@ -10,8 +10,8 @@ import updateStatus from './modules/updateStatus';
 
 // ------------ EVENT LISTENERS ------------
 // TRAGET DOM ELEMENTS
-const listPlaceholder = document.getElementById('list-placeholder');
 const addTaskBtn = document.getElementById('add-task-btn');
+const listPlaceholder = document.getElementById('list-placeholder');
 const clearButton = document.getElementById('clear-btn');
 
 // ADD A TASK
@@ -31,8 +31,7 @@ addTaskBtn.addEventListener('click', () => {
 listPlaceholder.addEventListener('click', (e) => {
   if (e.target.tagName === 'INPUT' && e.target.classList.contains('task-text')) {
     const taskDescription = e.target;
-    let index = [...taskDescription.classList];
-    index = index[index.length - 1];
+    let index = taskDescription.parentElement.parentElement.id;
     taskDescription.addEventListener('keydown', (e) => {
       if (e.keyCode === 13 && taskDescription.value !== '') {
         editTask(taskDescription.value, index);
@@ -45,7 +44,7 @@ listPlaceholder.addEventListener('click', (e) => {
 listPlaceholder.addEventListener('click', (e) => {
   if (e.target.className === 'fa-solid fa-trash-can') { // element clicked is the trash icon
     // get the index of the button (same as the object Index: in the array)
-    const index = parseInt(e.target.parentElement.id, 10);
+    const index = +e.target.parentElement.parentElement.id;
     deleteTask(index);
     clearList();
     renderList();
@@ -56,20 +55,10 @@ listPlaceholder.addEventListener('click', (e) => {
 listPlaceholder.addEventListener('click', (e) => {
   if (e.target.tagName === 'INPUT' && e.target.classList.contains('checkbox')) {
     const checkbox = e.target;
-    const taskText = [...checkbox.nextElementSibling.classList];
-    if (taskText[0] !== 'done') {
-      taskText.unshift('done');
-      const classList = taskText.join(' ');
-      checkbox.nextElementSibling.classList = classList;
-    } else {
-      taskText.shift();
-      const classList = taskText.join(' ');
-      checkbox.nextElementSibling.classList = classList;
-    }
-    // taskText.classList.add("done");
+    const taskText = checkbox.nextElementSibling;
+    taskText.classList.toggle("done");
     const completed = checkbox.checked;
-    let index = [...checkbox.classList];
-    index = index[index.length - 1];
+    let index = checkbox.parentElement.parentElement.id;
     updateStatus(index, completed);
   }
 });
@@ -87,29 +76,56 @@ clearButton.addEventListener('click', () => {
 });
 
 // DRAG AND DROP
-listPlaceholder.addEventListener('drag', (e) => {
-
-  if (e.target.tagName === 'LI') {
-    const dragTarget = e.target
-    dragTarget.addEventListener("dragstart", dragStart);
-    dragTarget.addEventListener("dragover", dragOver);
-    dragTarget.addEventListener("drop", dragDrop);
+listPlaceholder.addEventListener('dragstart', (e) => {
+  if (e.target.classList.contains("task-text")) {
+    let index = e.target.parentElement.parentElement.id;
+    console.log(index);
+    localStorage.setItem('startDragIndex', JSON.stringify(index));
   }
-});
 
-function dragStart() {
-  let dragStartIndex = [...this.classList];
-  dragStartIndex = parseInt(dragStartIndex[dragStartIndex.length - 1], 10);
-  localStorage.setItem('startDragIndex', JSON.stringify(dragStartIndex));
-}
+})
+
+let dragTarget = document.getElementsByClassName("task");
+console.log("LI Items", dragTarget);
+const dragTargetArr = Array.from(dragTarget);
+console.log("Array from : ", dragTargetArr);
+// dragTarget.forEach(target => {
+//   target.addEventListener('dragover', dragOver);
+//   target.addEventListener("drop", dragDrop);
+// });
+
+// listPlaceholder.addEventListener('drag', (e) => {
+//   if (e.target.classList.contains("task-text")) {
+
+//     draggable.addEventListener("dragstart", dragStart);
+//   }
+// })
+// if (e.target.tagName === 'LI') {
+//   const dragTarget = e.target
+//   dragTarget.addEventListener("dragover", dragOver);
+//   dragTarget.addEventListener("drop", dragDrop);
+// }
+
+
+// listPlaceholder.addEventListener('drag', (e) => {
+
+//   if (e.target.tagName === 'LI') {
+//     const dragTarget = e.target
+//     dragTarget.addEventListener("dragstart", dragStart);
+//     dragTarget.addEventListener("dragover", dragOver);
+//     dragTarget.addEventListener("drop", dragDrop);
+//   }
+// });
 
 function dragOver(e) {
+  console.log("dragOver");
+  //colocar margin-top: 40px;
   e.preventDefault();
 }
 
 function dragDrop() {
   let dragEndIndex = [...this.classList];
-  dragEndIndex = parseInt(dragEndIndex[dragEndIndex.length - 1], 10);
+  dragEndIndex = +dragEndIndex[dragEndIndex.length - 1];
   let dragStartIndex = JSON.parse(localStorage.getItem('startDragIndex'));
   console.log("startIndex: ", dragStartIndex);
   console.log("dropIndex: ", dragEndIndex);
@@ -130,3 +146,4 @@ function swapItems(fromIndex, toIndex) {
 
 // SHOW LIST ON HTML
 renderList();
+const focusBackToInput = document.getElementById('task-text').focus();

@@ -1,25 +1,25 @@
 {
-  "hash": "5d5f79ba3f6b7d3e40e9",
+  "hash": "d809bb81eb5afef5fdec",
   "version": "5.73.0",
-  "time": 65,
-  "builtAt": 1657902000026,
+  "time": 57,
+  "builtAt": 1658168479241,
   "publicPath": "auto",
   "outputPath": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/dist",
   "assetsByChunkName": {
     "index": [
       "index.bundle.js",
-      "index.e0503046fd049e67b7b0.hot-update.js"
+      "index.2653ac2246a6697d8ddb.hot-update.js"
     ],
     "runtime": [
       "runtime.bundle.js",
-      "runtime.e0503046fd049e67b7b0.hot-update.js"
+      "runtime.2653ac2246a6697d8ddb.hot-update.js"
     ]
   },
   "assets": [
     {
       "type": "asset",
       "name": "index.bundle.js",
-      "size": 221375,
+      "size": 222727,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -28,7 +28,7 @@
         "related": {
           "sourceMap": "index.bundle.js.map"
         },
-        "size": 221375
+        "size": 222727
       },
       "chunkNames": [
         "index"
@@ -41,13 +41,13 @@
         {
           "type": "sourceMap",
           "name": "index.bundle.js.map",
-          "size": 259306,
+          "size": 261255,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 259306
+            "size": 261255
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -124,19 +124,19 @@
     },
     {
       "type": "asset",
-      "name": "index.e0503046fd049e67b7b0.hot-update.js",
-      "size": 6654,
+      "name": "index.2653ac2246a6697d8ddb.hot-update.js",
+      "size": 7158,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "e0503046fd049e67b7b0",
+        "fullhash": "2653ac2246a6697d8ddb",
         "related": {
-          "sourceMap": "index.e0503046fd049e67b7b0.hot-update.js.map"
+          "sourceMap": "index.2653ac2246a6697d8ddb.hot-update.js.map"
         },
-        "size": 6654
+        "size": 7158
       },
       "chunkNames": [
         "index"
@@ -148,14 +148,14 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "index.e0503046fd049e67b7b0.hot-update.js.map",
-          "size": 5470,
+          "name": "index.2653ac2246a6697d8ddb.hot-update.js.map",
+          "size": 6085,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 5470
+            "size": 6085
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -180,12 +180,12 @@
     {
       "type": "asset",
       "name": "index.html",
-      "size": 938,
+      "size": 1048,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
       "info": {
-        "size": 938
+        "size": 1048
       },
       "chunkNames": [],
       "chunkIdHints": [],
@@ -198,7 +198,7 @@
     },
     {
       "type": "asset",
-      "name": "runtime.e0503046fd049e67b7b0.hot-update.js",
+      "name": "runtime.2653ac2246a6697d8ddb.hot-update.js",
       "size": 370,
       "emitted": true,
       "comparedForEmit": false,
@@ -206,9 +206,9 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "e0503046fd049e67b7b0",
+        "fullhash": "2653ac2246a6697d8ddb",
         "related": {
-          "sourceMap": "runtime.e0503046fd049e67b7b0.hot-update.js.map"
+          "sourceMap": "runtime.2653ac2246a6697d8ddb.hot-update.js.map"
         },
         "size": 370
       },
@@ -222,7 +222,7 @@
       "related": [
         {
           "type": "sourceMap",
-          "name": "runtime.e0503046fd049e67b7b0.hot-update.js.map",
+          "name": "runtime.2653ac2246a6697d8ddb.hot-update.js.map",
           "size": 265,
           "emitted": true,
           "comparedForEmit": false,
@@ -253,7 +253,7 @@
     },
     {
       "type": "asset",
-      "name": "runtime.e0503046fd049e67b7b0.hot-update.json",
+      "name": "runtime.2653ac2246a6697d8ddb.hot-update.json",
       "size": 39,
       "emitted": true,
       "comparedForEmit": false,
@@ -261,7 +261,7 @@
       "info": {
         "hotModuleReplacement": true,
         "immutable": true,
-        "fullhash": "e0503046fd049e67b7b0",
+        "fullhash": "2653ac2246a6697d8ddb",
         "size": 39
       },
       "chunkNames": [],
@@ -280,9 +280,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 185556,
+      "size": 187054,
       "sizes": {
-        "javascript": 185556
+        "javascript": 187054
       },
       "names": [
         "index"
@@ -293,13 +293,13 @@
       ],
       "files": [
         "index.bundle.js",
-        "index.e0503046fd049e67b7b0.hot-update.js"
+        "index.2653ac2246a6697d8ddb.hot-update.js"
       ],
       "auxiliaryFiles": [
-        "index.bundle.js.map",
-        "index.e0503046fd049e67b7b0.hot-update.js.map"
+        "index.2653ac2246a6697d8ddb.hot-update.js.map",
+        "index.bundle.js.map"
       ],
-      "hash": "b274eff34fac944b9b32",
+      "hash": "d4b45ad9539892d40ce0",
       "childrenByOrder": {},
       "id": "index",
       "siblings": [
@@ -421,9 +421,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 5576,
+          "size": 6225,
           "sizes": {
-            "javascript": 5576
+            "javascript": 6225
           },
           "built": false,
           "codeGenerated": false,
@@ -951,14 +951,9 @@
           "issuerName": "./node_modules/webpack/hot/emitter.js",
           "issuerPath": [
             {
-              "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10"
-            },
-            {
-              "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/utils/reloadApp.js",
-              "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-              "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+              "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack/hot/dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             },
             {
               "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack/hot/emitter.js",
@@ -3528,25 +3523,20 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/utils/reloadApp.js",
-          "issuerName": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+          "issuer": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack/hot/dev-server.js",
+          "issuerName": "./node_modules/webpack/hot/dev-server.js",
           "issuerPath": [
             {
-              "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-              "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-              "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10"
-            },
-            {
-              "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/utils/reloadApp.js",
-              "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-              "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+              "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack/hot/dev-server.js",
+              "name": "./node_modules/webpack/hot/dev-server.js",
+              "id": "./node_modules/webpack/hot/dev-server.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./node_modules/webpack/hot/emitter.js",
-          "issuerId": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+          "issuerId": "./node_modules/webpack/hot/dev-server.js",
           "chunks": [
             "index"
           ],
@@ -3812,9 +3802,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 4243,
+          "size": 4747,
           "sizes": {
-            "javascript": 4243
+            "javascript": 4747
           },
           "built": true,
           "codeGenerated": true,
@@ -3930,7 +3920,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/clearList",
-              "loc": "50:4-13",
+              "loc": "49:4-13",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -3944,7 +3934,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/clearList",
-              "loc": "85:2-11",
+              "loc": "74:2-11",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -3958,7 +3948,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/clearList",
-              "loc": "125:2-11",
+              "loc": "141:2-11",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -3989,34 +3979,6 @@
               "loc": "11:2-11",
               "moduleId": "./src/modules/editTask.js",
               "resolvedModuleId": "./src/modules/editTask.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/renderList.js",
-              "module": "./src/modules/renderList.js",
-              "moduleName": "./src/modules/renderList.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/renderList.js",
-              "resolvedModule": "./src/modules/renderList.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./clearList",
-              "loc": "2:0-36",
-              "moduleId": "./src/modules/renderList.js",
-              "resolvedModuleId": "./src/modules/renderList.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/renderList.js",
-              "module": "./src/modules/renderList.js",
-              "moduleName": "./src/modules/renderList.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/renderList.js",
-              "resolvedModule": "./src/modules/renderList.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./clearList",
-              "loc": "22:2-11",
-              "moduleId": "./src/modules/renderList.js",
-              "resolvedModuleId": "./src/modules/renderList.js"
             }
           ],
           "usedExports": null,
@@ -4170,7 +4132,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/deleteTask",
-              "loc": "49:4-14",
+              "loc": "48:4-14",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -4248,7 +4210,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/editTask",
-              "loc": "38:8-16",
+              "loc": "37:8-16",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -4340,7 +4302,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/getDataFromLocalStorage",
-              "loc": "79:20-26",
+              "loc": "68:20-26",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4354,7 +4316,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/getDataFromLocalStorage",
-              "loc": "120:20-26",
+              "loc": "136:20-26",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4438,7 +4400,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./getDataFromLocalStorage",
-              "loc": "5:22-28",
+              "loc": "4:22-28",
               "moduleId": "./src/modules/renderList.js",
               "resolvedModuleId": "./src/modules/renderList.js"
             },
@@ -4482,9 +4444,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 857,
+          "size": 1202,
           "sizes": {
-            "javascript": 857
+            "javascript": 1202
           },
           "built": false,
           "codeGenerated": false,
@@ -4558,7 +4520,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderList",
-              "loc": "51:4-14",
+              "loc": "50:4-14",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4572,7 +4534,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderList",
-              "loc": "86:2-12",
+              "loc": "75:2-12",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4586,7 +4548,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderList",
-              "loc": "126:2-12",
+              "loc": "142:2-12",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4600,7 +4562,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderList",
-              "loc": "132:0-10",
+              "loc": "148:0-10",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4720,7 +4682,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/saveAtLocalStorage",
-              "loc": "84:2-20",
+              "loc": "73:2-20",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4734,7 +4696,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/saveAtLocalStorage",
-              "loc": "124:2-20",
+              "loc": "140:2-20",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4896,7 +4858,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/updateStatus",
-              "loc": "73:4-16",
+              "loc": "62:4-16",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -5015,13 +4977,13 @@
       ],
       "files": [
         "runtime.bundle.js",
-        "runtime.e0503046fd049e67b7b0.hot-update.js"
+        "runtime.2653ac2246a6697d8ddb.hot-update.js"
       ],
       "auxiliaryFiles": [
-        "runtime.bundle.js.map",
-        "runtime.e0503046fd049e67b7b0.hot-update.js.map"
+        "runtime.2653ac2246a6697d8ddb.hot-update.js.map",
+        "runtime.bundle.js.map"
       ],
-      "hash": "2fc70257724261cc616f",
+      "hash": "63e57583724714615b4e",
       "childrenByOrder": {},
       "id": "runtime",
       "siblings": [
@@ -5673,9 +5635,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 4243,
+      "size": 4747,
       "sizes": {
-        "javascript": 4243
+        "javascript": 4747
       },
       "built": true,
       "codeGenerated": true,
@@ -6924,25 +6886,20 @@
       "cacheable": true,
       "optional": false,
       "orphan": false,
-      "issuer": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/utils/reloadApp.js",
-      "issuerName": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+      "issuer": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack/hot/dev-server.js",
+      "issuerName": "./node_modules/webpack/hot/dev-server.js",
       "issuerPath": [
         {
-          "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10"
-        },
-        {
-          "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/utils/reloadApp.js",
-          "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-          "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+          "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack/hot/dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         }
       ],
       "failed": false,
       "errors": 0,
       "warnings": 0,
       "id": "./node_modules/webpack/hot/emitter.js",
-      "issuerId": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
+      "issuerId": "./node_modules/webpack/hot/dev-server.js",
       "chunks": [
         "index"
       ],
@@ -7367,7 +7324,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/deleteTask",
-          "loc": "49:4-14",
+          "loc": "48:4-14",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -7458,7 +7415,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/getDataFromLocalStorage",
-          "loc": "79:20-26",
+          "loc": "68:20-26",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7472,7 +7429,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/getDataFromLocalStorage",
-          "loc": "120:20-26",
+          "loc": "136:20-26",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7556,7 +7513,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./getDataFromLocalStorage",
-          "loc": "5:22-28",
+          "loc": "4:22-28",
           "moduleId": "./src/modules/renderList.js",
           "resolvedModuleId": "./src/modules/renderList.js"
         },
@@ -7675,7 +7632,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/saveAtLocalStorage",
-          "loc": "84:2-20",
+          "loc": "73:2-20",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7689,7 +7646,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/saveAtLocalStorage",
-          "loc": "124:2-20",
+          "loc": "140:2-20",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7850,7 +7807,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/clearList",
-          "loc": "50:4-13",
+          "loc": "49:4-13",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7864,7 +7821,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/clearList",
-          "loc": "85:2-11",
+          "loc": "74:2-11",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7878,7 +7835,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/clearList",
-          "loc": "125:2-11",
+          "loc": "141:2-11",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7909,34 +7866,6 @@
           "loc": "11:2-11",
           "moduleId": "./src/modules/editTask.js",
           "resolvedModuleId": "./src/modules/editTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/renderList.js",
-          "module": "./src/modules/renderList.js",
-          "moduleName": "./src/modules/renderList.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/renderList.js",
-          "resolvedModule": "./src/modules/renderList.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./clearList",
-          "loc": "2:0-36",
-          "moduleId": "./src/modules/renderList.js",
-          "resolvedModuleId": "./src/modules/renderList.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/renderList.js",
-          "module": "./src/modules/renderList.js",
-          "moduleName": "./src/modules/renderList.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/src/modules/renderList.js",
-          "resolvedModule": "./src/modules/renderList.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./clearList",
-          "loc": "22:2-11",
-          "moduleId": "./src/modules/renderList.js",
-          "resolvedModuleId": "./src/modules/renderList.js"
         }
       ],
       "usedExports": null,
@@ -7950,9 +7879,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 857,
+      "size": 1202,
       "sizes": {
-        "javascript": 857
+        "javascript": 1202
       },
       "built": false,
       "codeGenerated": false,
@@ -8025,7 +7954,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderList",
-          "loc": "51:4-14",
+          "loc": "50:4-14",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8039,7 +7968,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderList",
-          "loc": "86:2-12",
+          "loc": "75:2-12",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8053,7 +7982,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderList",
-          "loc": "126:2-12",
+          "loc": "142:2-12",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8067,7 +7996,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderList",
-          "loc": "132:0-10",
+          "loc": "148:0-10",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8172,7 +8101,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/editTask",
-          "loc": "38:8-16",
+          "loc": "37:8-16",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -8249,7 +8178,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/updateStatus",
-          "loc": "73:4-16",
+          "loc": "62:4-16",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -8831,14 +8760,9 @@
       "issuerName": "./node_modules/webpack/hot/emitter.js",
       "issuerPath": [
         {
-          "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-          "name": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10",
-          "id": "./node_modules/webpack-dev-server/client/index.js?protocol=ws%3A&hostname=0.0.0.0&port=8080&pathname=%2Fws&logging=info&reconnect=10"
-        },
-        {
-          "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack-dev-server/client/utils/reloadApp.js",
-          "name": "./node_modules/webpack-dev-server/client/utils/reloadApp.js",
-          "id": "./node_modules/webpack-dev-server/client/utils/reloadApp.js"
+          "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack/hot/dev-server.js",
+          "name": "./node_modules/webpack/hot/dev-server.js",
+          "id": "./node_modules/webpack/hot/dev-server.js"
         },
         {
           "identifier": "/home/tlm-89/repos/Module2/week-2/My-To-Do-List/node_modules/webpack/hot/emitter.js",
@@ -9458,9 +9382,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 5576,
+      "size": 6225,
       "sizes": {
-        "javascript": 5576
+        "javascript": 6225
       },
       "built": false,
       "codeGenerated": false,
@@ -10688,40 +10612,40 @@
           "size": 45188
         },
         {
-          "name": "runtime.e0503046fd049e67b7b0.hot-update.js",
+          "name": "runtime.2653ac2246a6697d8ddb.hot-update.js",
           "size": 370
         },
         {
           "name": "index.bundle.js",
-          "size": 221375
+          "size": 222727
         },
         {
-          "name": "index.e0503046fd049e67b7b0.hot-update.js",
-          "size": 6654
+          "name": "index.2653ac2246a6697d8ddb.hot-update.js",
+          "size": 7158
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 273587,
+      "assetsSize": 275443,
       "auxiliaryAssets": [
         {
-          "name": "index.bundle.js.map",
-          "size": 259306
+          "name": "index.2653ac2246a6697d8ddb.hot-update.js.map",
+          "size": 6085
         },
         {
-          "name": "index.e0503046fd049e67b7b0.hot-update.js.map",
-          "size": 5470
+          "name": "index.bundle.js.map",
+          "size": 261255
+        },
+        {
+          "name": "runtime.2653ac2246a6697d8ddb.hot-update.js.map",
+          "size": 265
         },
         {
           "name": "runtime.bundle.js.map",
           "size": 43165
-        },
-        {
-          "name": "runtime.e0503046fd049e67b7b0.hot-update.js.map",
-          "size": 265
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 308206,
+      "auxiliaryAssetsSize": 310770,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -10740,40 +10664,40 @@
           "size": 45188
         },
         {
-          "name": "runtime.e0503046fd049e67b7b0.hot-update.js",
+          "name": "runtime.2653ac2246a6697d8ddb.hot-update.js",
           "size": 370
         },
         {
           "name": "index.bundle.js",
-          "size": 221375
+          "size": 222727
         },
         {
-          "name": "index.e0503046fd049e67b7b0.hot-update.js",
-          "size": 6654
+          "name": "index.2653ac2246a6697d8ddb.hot-update.js",
+          "size": 7158
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 273587,
+      "assetsSize": 275443,
       "auxiliaryAssets": [
         {
-          "name": "index.bundle.js.map",
-          "size": 259306
+          "name": "index.2653ac2246a6697d8ddb.hot-update.js.map",
+          "size": 6085
         },
         {
-          "name": "index.e0503046fd049e67b7b0.hot-update.js.map",
-          "size": 5470
+          "name": "index.bundle.js.map",
+          "size": 261255
+        },
+        {
+          "name": "runtime.2653ac2246a6697d8ddb.hot-update.js.map",
+          "size": 265
         },
         {
           "name": "runtime.bundle.js.map",
           "size": 43165
-        },
-        {
-          "name": "runtime.e0503046fd049e67b7b0.hot-update.js.map",
-          "size": 265
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 308206,
+      "auxiliaryAssetsSize": 310770,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
