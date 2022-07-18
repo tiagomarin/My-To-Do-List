@@ -10,7 +10,7 @@
 - javascript
 
 ## Live demo
-You can access the live demo through this [link](https://tiago-lelinski-marin.github.io/to-do-list/)
+You can access the live demo through this [link](https://tiago-lelinski-marin.github.io/My-To-Do-List/)
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
