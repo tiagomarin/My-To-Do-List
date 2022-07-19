@@ -82,40 +82,19 @@ listPlaceholder.addEventListener('dragstart', (e) => {
     console.log(index);
     localStorage.setItem('startDragIndex', JSON.stringify(index));
   }
-
 })
 
-let dragTarget = document.getElementsByClassName("task");
+let dragTarget = listPlaceholder.getElementsByTagName("li");
 console.log("LI Items", dragTarget);
-const dragTargetArr = Array.from(dragTarget);
+
+const dragTargetArr = [...dragTarget];
+// const dragTargetArr = Array.from(dragTarget);
 console.log("Array from : ", dragTargetArr);
-// dragTarget.forEach(target => {
-//   target.addEventListener('dragover', dragOver);
-//   target.addEventListener("drop", dragDrop);
-// });
 
-// listPlaceholder.addEventListener('drag', (e) => {
-//   if (e.target.classList.contains("task-text")) {
-
-//     draggable.addEventListener("dragstart", dragStart);
-//   }
-// })
-// if (e.target.tagName === 'LI') {
-//   const dragTarget = e.target
-//   dragTarget.addEventListener("dragover", dragOver);
-//   dragTarget.addEventListener("drop", dragDrop);
-// }
-
-
-// listPlaceholder.addEventListener('drag', (e) => {
-
-//   if (e.target.tagName === 'LI') {
-//     const dragTarget = e.target
-//     dragTarget.addEventListener("dragstart", dragStart);
-//     dragTarget.addEventListener("dragover", dragOver);
-//     dragTarget.addEventListener("drop", dragDrop);
-//   }
-// });
+dragTargetArr.forEach(target => {
+  target.addEventListener('dragover', dragOver);
+  target.addEventListener("drop", dragDrop);
+});
 
 function dragOver(e) {
   console.log("dragOver");
