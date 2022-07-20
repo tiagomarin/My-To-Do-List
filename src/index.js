@@ -79,33 +79,23 @@ clearButton.addEventListener('click', () => {
 listPlaceholder.addEventListener('dragstart', (e) => {
   if (e.target.classList.contains("task-text")) {
     let index = e.target.parentElement.parentElement.id;
-    console.log(index);
     localStorage.setItem('startDragIndex', JSON.stringify(index));
   }
+  const dragTargetArr = [...listPlaceholder.getElementsByTagName("li")];
+  dragTargetArr.forEach(target => {
+    target.addEventListener('dragover', dragOver);
+    target.addEventListener("drop", dragDrop);
+  });
 })
 
-let dragTarget = listPlaceholder.getElementsByTagName("li");
-console.log("LI Items", dragTarget);
-
-const dragTargetArr = [...dragTarget];
-// const dragTargetArr = Array.from(dragTarget);
-console.log("Array from : ", dragTargetArr);
-
-dragTargetArr.forEach(target => {
-  target.addEventListener('dragover', dragOver);
-  target.addEventListener("drop", dragDrop);
-});
-
 function dragOver(e) {
-  console.log("dragOver");
-  //colocar margin-top: 40px;
+  this.classList.add('drag-over');//colocar margin-top: 40px;
   e.preventDefault();
 }
 
 function dragDrop() {
-  let dragEndIndex = [...this.classList];
-  dragEndIndex = +dragEndIndex[dragEndIndex.length - 1];
-  let dragStartIndex = JSON.parse(localStorage.getItem('startDragIndex'));
+  const dragEndIndex = this.id;
+  const dragStartIndex = JSON.parse(localStorage.getItem('startDragIndex'));
   console.log("startIndex: ", dragStartIndex);
   console.log("dropIndex: ", dragEndIndex);
   swapItems(dragStartIndex, dragEndIndex);
