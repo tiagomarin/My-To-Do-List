@@ -67,6 +67,17 @@ main {
     }
   }
 
+  .check-all {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding: 0 1rem;
+    height: 4rem;
+  }
+
   ul {
     display: flex;
     flex-direction: column;
@@ -83,8 +94,9 @@ main {
       padding: 0 1rem;
       height: 4rem;
 
-      div {
+      .task-info {
         display: flex;
+        width: 100%;
         gap: 1.5rem;
 
         .checkbox {
@@ -94,6 +106,12 @@ main {
         .task-text {
           border: none;
           height: 100%;
+          width: 92%;
+          background-color: transparent;
+        }
+
+        .task-text.done {
+          text-decoration: line-through;
         }
       }
 
