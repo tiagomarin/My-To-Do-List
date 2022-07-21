@@ -1,4 +1,4 @@
-import './style.scss';
+// import './style.scss';
 import createTask from './modules/createTask';
 import deleteTask from './modules/deleteTask';
 import getArr from './modules/getDataFromLocalStorage';
@@ -15,7 +15,7 @@ const listPlaceholder = document.getElementById('list-placeholder');
 const clearButton = document.getElementById('clear-btn');
 
 // ADD A TASK
-addTaskBtn.addEventListener('click', () => {
+function Add() {
   const addTaskDescInput = document.getElementById('task-text').value;
   if (addTaskDescInput !== '') {
     const taskListArr = getArr();
@@ -24,8 +24,11 @@ addTaskBtn.addEventListener('click', () => {
     taskListArr.push(newTask);
     saveInLocalStorage(taskListArr);
     renderList();
+    console.log('is it working?');
   }
-});
+}
+addTaskBtn.addEventListener('click', Add);
+
 
 // EDIT A TASK
 listPlaceholder.addEventListener('click', (e) => {
@@ -75,6 +78,7 @@ clearButton.addEventListener('click', () => {
   renderList();
 });
 
+/*
 // DRAG AND DROP
 listPlaceholder.addEventListener('dragstart', (e) => {
   if (e.target.classList.contains("task-text")) {
@@ -87,12 +91,12 @@ listPlaceholder.addEventListener('dragstart', (e) => {
     target.addEventListener("drop", dragDrop);
   });
 })
-
+ 
 function dragOver(e) {
   this.classList.add('drag-over');//colocar margin-top: 40px;
   e.preventDefault();
 }
-
+ 
 function dragDrop() {
   const dragEndIndex = this.id;
   const dragStartIndex = JSON.parse(localStorage.getItem('startDragIndex'));
@@ -100,7 +104,7 @@ function dragDrop() {
   console.log("dropIndex: ", dragEndIndex);
   swapItems(dragStartIndex, dragEndIndex);
 }
-
+ 
 function swapItems(fromIndex, toIndex) {
   let taskListArr = getArr();
   taskListArr[fromIndex - 1].Index = toIndex;
@@ -110,9 +114,9 @@ function swapItems(fromIndex, toIndex) {
   clearList();
   renderList();
 }
-
-
+*/
 
 // SHOW LIST ON HTML
 renderList();
 const focusBackToInput = document.getElementById('task-text').focus();
+
