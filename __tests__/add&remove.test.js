@@ -1,18 +1,15 @@
 /**
- * @jest-environment jsdom 
+ * @jest-environment jsdom
 */
-import Add from "../src/modules/addTask";
-import deleteTask from "../src/modules/deleteTask";
-import getArr from "../src/modules/getDataFromLocalStorage";
-import saveInLocalStorage from "../src/modules/saveAtLocalStorage.js";
-import renderList from "../src/modules/renderList"
-import clearList from "../src/modules/clearList"
-
-// add or remove exactly one <li> element to/from the list in the DOM.
+import Add from '../src/modules/addTask';
+import deleteTask from '../src/modules/deleteTask';
+import getArr from '../src/modules/getDataFromLocalStorage';
+import saveInLocalStorage from '../src/modules/saveAtLocalStorage';
+import renderList from '../src/modules/renderList';
+import clearList from '../src/modules/clearList';
 
 describe('add & remove', () => {
-
-  //set up environment
+  // set up environment
   document.body.innerHTML = `<main>+
   <section id="task-list">+
     <div id="list-title">+
@@ -44,28 +41,26 @@ describe('add & remove', () => {
   // })
 
   describe('remove task', () => {
-    //set up environment
+    // set up environment
     // save fake values to local storage
     const taskListArr = getArr();
-    for (let i = 1; i <= 10; i++) {
-      let task = { Description: `fake${i}`, Completed: false, Index: i }
+    for (let i = 1; i <= 10; i += 1) {
+      const task = { Description: `fake${i}`, Completed: false, Index: i };
       taskListArr.push(task);
     }
     saveInLocalStorage(taskListArr);
-    const initialArray = taskListArr;
-    let arrFromStorage = getArr();
     clearList();
     renderList();
 
     // start delete tests
-    test("item is removed", () => {
-      const listPlaceholder = document.querySelector("#list-placeholder");
+    test('item is removed', () => {
+      const listPlaceholder = document.querySelector('#list-placeholder');
       const listLengthBefore = listPlaceholder.children.length;
       deleteTask(5);
       clearList();
       renderList();
       const listLengthAfter = listPlaceholder.children.length;
       expect(listLengthAfter).toBe(listLengthBefore - 1);
-    })
+    });
   });
 });

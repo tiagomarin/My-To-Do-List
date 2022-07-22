@@ -1,6 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1658529306301" clover="3.2.0">
-  <project timestamp="1658529306301" name="All files">
-    <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0" elements="0" coveredelements="0" complexity="0" loc="0" ncloc="0" packages="0" files="0" classes="0"/>
+<coverage generated="1658529359544" clover="3.2.0">
+  <project timestamp="1658529359544" name="All files">
+    <metrics statements="32" coveredstatements="24" conditionals="4" coveredconditionals="2" methods="7" coveredmethods="6" elements="43" coveredelements="32" complexity="0" loc="32" ncloc="32" packages="1" files="6" classes="6"/>
+    <file name="addTask.js" path="/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js">
+      <metrics statements="9" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <line num="7" count="1" type="stmt"/>
+      <line num="8" count="0" type="stmt"/>
+      <line num="9" count="0" type="cond" truecount="0" falsecount="2"/>
+      <line num="10" count="0" type="stmt"/>
+      <line num="11" count="0" type="stmt"/>
+      <line num="12" count="0" type="stmt"/>
+      <line num="13" count="0" type="stmt"/>
+      <line num="14" count="0" type="stmt"/>
+      <line num="15" count="0" type="stmt"/>
+    </file>
+    <file name="clearList.js" path="/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearList.js">
+      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="10" type="stmt"/>
+    </file>
+    <file name="deleteTask.js" path="/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="10" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="10" count="9" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="getDataFromLocalStorage.js" path="/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/getDataFromLocalStorage.js">
+      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="4" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="5" type="stmt"/>
+    </file>
+    <file name="renderList.js" path="/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="8" count="19" type="stmt"/>
+      <line num="15" count="19" type="stmt"/>
+    </file>
+    <file name="saveAtLocalStorage.js" path="/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/saveAtLocalStorage.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+    </file>
   </project>
 </coverage>

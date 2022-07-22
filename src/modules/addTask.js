@@ -1,7 +1,7 @@
-import getArr from "./getDataFromLocalStorage";
-import createTask from "./createTask";
-import saveInLocalStorage from "./saveAtLocalStorage";
-import renderList from "./renderList";
+import getArr from './getDataFromLocalStorage';
+import createTask from './createTask';
+import saveInLocalStorage from './saveAtLocalStorage';
+import renderList from './renderList';
 
 // ADD A TASK
 const Add = () => {
@@ -14,6 +14,6 @@ const Add = () => {
     saveInLocalStorage(taskListArr);
     renderList();
   }
-}
+};
 
-export default Add
+export default Add;
