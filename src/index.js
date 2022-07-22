@@ -67,7 +67,7 @@ clearButton.addEventListener('click', () => {
   renderList();
 });
 
-/*
+
 // DRAG AND DROP
 listPlaceholder.addEventListener('dragstart', (e) => {
   if (e.target.classList.contains("task-text")) {
@@ -80,12 +80,12 @@ listPlaceholder.addEventListener('dragstart', (e) => {
     target.addEventListener("drop", dragDrop);
   });
 })
- 
+
 function dragOver(e) {
   this.classList.add('drag-over');//colocar margin-top: 40px;
   e.preventDefault();
 }
- 
+
 function dragDrop() {
   const dragEndIndex = this.id;
   const dragStartIndex = JSON.parse(localStorage.getItem('startDragIndex'));
@@ -93,7 +93,7 @@ function dragDrop() {
   console.log("dropIndex: ", dragEndIndex);
   swapItems(dragStartIndex, dragEndIndex);
 }
- 
+
 function swapItems(fromIndex, toIndex) {
   let taskListArr = getArr();
   taskListArr[fromIndex - 1].Index = toIndex;
@@ -103,7 +103,6 @@ function swapItems(fromIndex, toIndex) {
   clearList();
   renderList();
 }
-*/
 
 // SHOW LIST ON HTML
 renderList();
