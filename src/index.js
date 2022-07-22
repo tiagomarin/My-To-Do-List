@@ -31,7 +31,6 @@ listPlaceholder.addEventListener('click', (e) => {
 });
 
 // DELETE A TASK
-
 listPlaceholder.addEventListener('click', (e) => {
   if (e.target.className === 'fa-solid fa-trash-can') { // element clicked is the trash icon
     // get the index of the button (same as the object Index: in the array)

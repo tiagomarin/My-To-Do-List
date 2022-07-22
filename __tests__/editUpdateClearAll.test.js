@@ -1,6 +1,7 @@
 /**
  * @jest-environment jsdom
 */
+import editTask from '../src/modules/editTask';
 import Add from '../src/modules/addTask';
 import deleteTask from '../src/modules/deleteTask';
 import getArr from '../src/modules/getDataFromLocalStorage';
@@ -8,7 +9,7 @@ import saveInLocalStorage from '../src/modules/saveAtLocalStorage';
 import renderList from '../src/modules/renderList';
 import clearList from '../src/modules/clearList';
 
-describe('add & remove', () => {
+describe('edit , update & clear All', () => {
   // set up environment
   document.body.innerHTML = `<main>+
   <section id="task-list">+
@@ -26,23 +27,9 @@ describe('add & remove', () => {
     <button id="clear-btn">Clear all completed</button>+
   </section>+
 </main>`;
-  document.getElementById('add-task-btn').onclick = Add;
 
-  // start add tests
-  // describe('add task', () => {
-  //   test('only 1 li item is added in the DOM', () => {
-  //     const listPlaceholder = document.querySelector('#list-placeholder');
-  //     const listLengthBefore = listPlaceholder.children.length;
-  //     document.getElementById('task-text').value = 'fake task 1';
-  //     document.getElementById('add-task-btn').click();
-  //     const listLengthAfter = listPlaceholder.children.length;
-  //     expect(listLengthAfter).toBe(listLengthBefore + 1);
-  //   });
-  // });
-
-  describe('remove task', () => {
+  describe("edit", () => {
     // set up environment
-    // save fake values to local storage
     const taskListArr = getArr();
     for (let i = 1; i <= 10; i += 1) {
       const task = { Description: `fake${i}`, Completed: false, Index: i };
@@ -52,15 +39,17 @@ describe('add & remove', () => {
     clearList();
     renderList();
 
-    // start delete tests
-    test('item is removed', () => {
-      const listPlaceholder = document.querySelector('#list-placeholder');
-      const listLengthBefore = listPlaceholder.children.length;
-      deleteTask(5);
-      clearList();
-      renderList();
-      const listLengthAfter = listPlaceholder.children.length;
-      expect(listLengthAfter).toBe(listLengthBefore - 1);
-    });
-  });
-});
+
+    //start tests
+    test('description was edited succesfully', () => {
+      const taskDescriptionBefore = document.querySelector(".task-text").value;
+      const taskDescriptionInput = "chaged description";
+      editTask(taskDescriptionInput, 1);
+      const taskDescriptionAfter = document.querySelector(".task-text").value;
+      expect(taskDescriptionAfter).not.toBe(taskDescriptionBefore);
+      expect(taskDescriptionAfter).toBe(taskDescriptionInput)
+    })
+  })
+
+
+})
