@@ -1,5 +1,5 @@
-// import './style.scss';
-import createTask from './modules/createTask';
+import './style.scss';
+import Add from './modules/addTask';
 import deleteTask from './modules/deleteTask';
 import getArr from './modules/getDataFromLocalStorage';
 import saveInLocalStorage from './modules/saveAtLocalStorage';
@@ -14,19 +14,7 @@ const addTaskBtn = document.getElementById('add-task-btn');
 const listPlaceholder = document.getElementById('list-placeholder');
 const clearButton = document.getElementById('clear-btn');
 
-// ADD A TASK
-function Add() {
-  const addTaskDescInput = document.getElementById('task-text').value;
-  if (addTaskDescInput !== '') {
-    const taskListArr = getArr();
-    const index = (taskListArr.length + 1);
-    const newTask = createTask(addTaskDescInput, index);
-    taskListArr.push(newTask);
-    saveInLocalStorage(taskListArr);
-    renderList();
-    console.log('is it working?');
-  }
-}
+
 addTaskBtn.addEventListener('click', Add);
 
 
@@ -44,6 +32,7 @@ listPlaceholder.addEventListener('click', (e) => {
 });
 
 // DELETE A TASK
+
 listPlaceholder.addEventListener('click', (e) => {
   if (e.target.className === 'fa-solid fa-trash-can') { // element clicked is the trash icon
     // get the index of the button (same as the object Index: in the array)
