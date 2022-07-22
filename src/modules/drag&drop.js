@@ -3,7 +3,7 @@ import saveInLocalStorage from './saveAtLocalStorage';
 import clearList from './clearList';
 import renderList from './renderList';
 
-export function dragOver() {
+export function dragOver(e) {
   this.classList.add('drag-over');// add style margin-top: 40px;
   e.preventDefault();
 }

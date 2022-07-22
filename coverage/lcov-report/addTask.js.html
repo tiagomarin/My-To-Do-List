@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">11.11% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>1/9</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/1</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">11.11% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>1/9</span>
+                <span class='fraction'>9/9</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -88,43 +88,43 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import getArr from "./getDataFromLocalStorage";
-import createTask from "./createTask";
-import saveInLocalStorage from "./saveAtLocalStorage";
-import renderList from "./renderList";
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import getArr from './getDataFromLocalStorage';
+import createTask from './createTask';
+import saveInLocalStorage from './saveAtLocalStorage';
+import renderList from './renderList';
 &nbsp;
 // ADD A TASK
-const Add = <span class="fstat-no" title="function not covered" >()</span> =&gt; {
-  const addTaskDescInput = <span class="cstat-no" title="statement not covered" >document.getElementById('task-text').value;</span>
-<span class="cstat-no" title="statement not covered" >  if (addTaskDescInput !== '') {</span>
-    const taskListArr = <span class="cstat-no" title="statement not covered" >getArr();</span>
-    const index = (<span class="cstat-no" title="statement not covered" >taskListArr.length + 1)</span>;
-    const newTask = <span class="cstat-no" title="statement not covered" >createTask(addTaskDescInput, index);</span>
-<span class="cstat-no" title="statement not covered" >    taskListArr.push(newTask);</span>
-<span class="cstat-no" title="statement not covered" >    saveInLocalStorage(taskListArr);</span>
-<span class="cstat-no" title="statement not covered" >    renderList();</span>
+const Add = () =&gt; {
+  const addTaskDescInput = document.getElementById('task-text').value;
+  <span class="missing-if-branch" title="else path not taken" >E</span>if (addTaskDescInput !== '') {
+    const taskListArr = getArr();
+    const index = (taskListArr.length + 1);
+    const newTask = createTask(addTaskDescInput, index);
+    taskListArr.push(newTask);
+    saveInLocalStorage(taskListArr);
+    renderList();
   }
-}
+};
 &nbsp;
-export default Add</pre></td></tr></table></pre>
+export default Add;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at 2022-07-22T22:35:59.542Z
+                at 2022-07-22T23:19:07.077Z
             </div>
         <script src="prettify.js"></script>
         <script>

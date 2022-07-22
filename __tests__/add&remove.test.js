@@ -29,16 +29,16 @@ describe('add & remove', () => {
   document.getElementById('add-task-btn').onclick = Add;
 
   // start add tests
-  // describe('add task', () => {
-  //   test("only 1 li item is added in the DOM", () => {
-  //     const listPlaceholder = document.querySelector("#list-placeholder");
-  //     const listLengthBefore = listPlaceholder.children.length;
-  //     document.getElementById('task-text').value = "fake task 1";
-  //     document.getElementById('add-task-btn').click();
-  //     const listLengthAfter = listPlaceholder.children.length;
-  //     expect(listLengthAfter).toBe(listLengthBefore + 1);
-  //   });
-  // })
+  describe('add task', () => {
+    test('only 1 li item is added in the DOM', () => {
+      const listPlaceholder = document.querySelector('#list-placeholder');
+      const listLengthBefore = listPlaceholder.children.length;
+      document.getElementById('task-text').value = 'fake task 1';
+      document.getElementById('add-task-btn').click();
+      const listLengthAfter = listPlaceholder.children.length;
+      expect(listLengthAfter).toBe(listLengthBefore + 1);
+    });
+  });
 
   describe('remove task', () => {
     // set up environment
