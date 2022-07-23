@@ -20,7 +20,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_1___default()((_node_modules_css_loader_dist_runtime_sourceMaps_js__WEBPACK_IMPORTED_MODULE_0___default()));
 // Module
-___CSS_LOADER_EXPORT___.push([module.id, "*,\n*::before,\n*::after {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n* {\n  padding: 0;\n  margin: 0;\n}\n\nhtml {\n  font-size: 62.5%;\n  scroll-behavior: smooth;\n}\n\nmain {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n}\nmain > * {\n  width: 90%;\n}\n\n#task-list {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-around;\n  background-color: white;\n  margin-top: 1rem;\n  box-shadow: 5px 5px 10px 2px rgba(163, 163, 163, 0.8);\n}\n#task-list > * {\n  width: 100%;\n}\n#task-list #list-title {\n  display: flex;\n  justify-content: space-between;\n  border-bottom: 1px solid rgb(228, 228, 228);\n  padding: 1rem;\n}\n#task-list #add-task {\n  display: flex;\n  justify-content: space-between;\n  border-bottom: 1px solid rgb(228, 228, 228);\n}\n#task-list #add-task #task-text {\n  border: none;\n  padding: 1rem;\n  box-sizing: border-box;\n}\n#task-list #add-task #add-task-btn {\n  padding: 0.6rem 0.8rem;\n  margin: 0.6rem;\n  box-shadow: 3px 3px 6px 1px rgba(199, 199, 199, 0.8);\n  border: none;\n  background-color: white;\n}\n#task-list .check-all {\n  display: flex;\n  align-items: center;\n  gap: 15px;\n  width: 100%;\n  font-size: 1.5rem;\n  border-bottom: 1px solid rgb(228, 228, 228);\n  padding: 0 1rem;\n  height: 4rem;\n}\n#task-list ul {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-around;\n  list-style: none;\n}\n#task-list ul li {\n  display: flex;\n  justify-content: space-between;\n  width: 100%;\n  font-size: 1.5rem;\n  border-bottom: 1px solid rgb(228, 228, 228);\n  padding: 0 1rem;\n  height: 4rem;\n}\n#task-list ul li .task-info {\n  display: flex;\n  width: 100%;\n  gap: 1.5rem;\n}\n#task-list ul li .task-info .checkbox {\n  background-color: white;\n}\n#task-list ul li .task-info .task-text {\n  border: none;\n  height: 100%;\n  width: 92%;\n  background-color: transparent;\n}\n#task-list ul li .task-info .task-text.done {\n  text-decoration: line-through;\n}\n#task-list ul li .actions {\n  border: none;\n  background-color: transparent;\n}\n#task-list #clear-btn {\n  border: none;\n  padding: 1rem;\n  color: rgb(104, 104, 104);\n  background-color: rgb(240, 240, 240);\n}", "",{"version":3,"sources":["webpack://./src/style.scss"],"names":[],"mappings":"AAAA;;;EAGE,8BAAA;EACA,2BAAA;EACA,sBAAA;AACF;;AAEA;EACE,UAAA;EACA,SAAA;AACF;;AAEA;EACE,gBAAA;EACA,uBAAA;AACF;;AAEA;EACE,WAAA;EACA,aAAA;EACA,mBAAA;EACA,6BAAA;AACF;AACE;EACE,UAAA;AACJ;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,6BAAA;EACA,uBAAA;EACA,gBAAA;EACA,qDAAA;AAAF;AAEE;EACE,WAAA;AAAJ;AAGE;EACE,aAAA;EACA,8BAAA;EACA,2CAAA;EACA,aAAA;AADJ;AAIE;EACE,aAAA;EACA,8BAAA;EACA,2CAAA;AAFJ;AAII;EACE,YAAA;EACA,aAAA;EACA,sBAAA;AAFN;AAKI;EACE,sBAAA;EACA,cAAA;EACA,oDAAA;EACA,YAAA;EACA,uBAAA;AAHN;AAOE;EACE,aAAA;EACA,mBAAA;EACA,SAAA;EACA,WAAA;EACA,iBAAA;EACA,2CAAA;EACA,eAAA;EACA,YAAA;AALJ;AAQE;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,6BAAA;EACA,gBAAA;AANJ;AAQI;EACE,aAAA;EACA,8BAAA;EACA,WAAA;EACA,iBAAA;EACA,2CAAA;EACA,eAAA;EACA,YAAA;AANN;AAQM;EACE,aAAA;EACA,WAAA;EACA,WAAA;AANR;AAQQ;EACE,uBAAA;AANV;AASQ;EACE,YAAA;EACA,YAAA;EACA,UAAA;EACA,6BAAA;AAPV;AAUQ;EACE,6BAAA;AARV;AAYM;EACE,YAAA;EACA,6BAAA;AAVR;AAeE;EACE,YAAA;EACA,aAAA;EACA,yBAAA;EACA,oCAAA;AAbJ","sourcesContent":["*,\n*::before,\n*::after {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n* {\n  padding: 0;\n  margin: 0;\n}\n\nhtml {\n  font-size: 62.5%;\n  scroll-behavior: smooth;\n}\n\nmain {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n\n  >* {\n    width: 90%;\n  }\n}\n\n#task-list {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-around;\n  background-color: white;\n  margin-top: 1rem;\n  box-shadow: 5px 5px 10px 2px rgba(163, 163, 163, 0.8);\n\n  >* {\n    width: 100%;\n  }\n\n  #list-title {\n    display: flex;\n    justify-content: space-between;\n    border-bottom: 1px solid rgb(228, 228, 228);\n    padding: 1rem;\n  }\n\n  #add-task {\n    display: flex;\n    justify-content: space-between;\n    border-bottom: 1px solid rgb(228, 228, 228);\n\n    #task-text {\n      border: none;\n      padding: 1rem;\n      box-sizing: border-box;\n    }\n\n    #add-task-btn {\n      padding: 0.6rem 0.8rem;\n      margin: 0.6rem;\n      box-shadow: 3px 3px 6px 1px rgba(199, 199, 199, 0.8);\n      border: none;\n      background-color: white;\n    }\n  }\n\n  .check-all {\n    display: flex;\n    align-items: center;\n    gap: 15px;\n    width: 100%;\n    font-size: 1.5rem;\n    border-bottom: 1px solid rgb(228, 228, 228);\n    padding: 0 1rem;\n    height: 4rem;\n  }\n\n  ul {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-around;\n    list-style: none;\n\n    li {\n      display: flex;\n      justify-content: space-between;\n      width: 100%;\n      font-size: 1.5rem;\n      border-bottom: 1px solid rgb(228, 228, 228);\n      padding: 0 1rem;\n      height: 4rem;\n\n      .task-info {\n        display: flex;\n        width: 100%;\n        gap: 1.5rem;\n\n        .checkbox {\n          background-color: white;\n        }\n\n        .task-text {\n          border: none;\n          height: 100%;\n          width: 92%;\n          background-color: transparent;\n        }\n\n        .task-text.done {\n          text-decoration: line-through;\n        }\n      }\n\n      .actions {\n        border: none;\n        background-color: transparent;\n      }\n    }\n  }\n\n  #clear-btn {\n    border: none;\n    padding: 1rem;\n    color: rgb(104, 104, 104);\n    background-color: rgb(240, 240, 240);\n  }\n}"],"sourceRoot":""}]);
+___CSS_LOADER_EXPORT___.push([module.id, "*,\n*::before,\n*::after {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n* {\n  padding: 0;\n  margin: 0;\n}\n\nhtml {\n  font-size: 62.5%;\n  scroll-behavior: smooth;\n}\n\nmain {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n}\nmain > * {\n  width: 90%;\n}\n\n#task-list {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-around;\n  background-color: white;\n  margin-top: 1rem;\n  box-shadow: 5px 5px 10px 2px rgba(163, 163, 163, 0.8);\n}\n#task-list > * {\n  width: 100%;\n}\n#task-list #list-title {\n  display: flex;\n  justify-content: space-between;\n  border-bottom: 1px solid rgb(228, 228, 228);\n  padding: 1rem;\n}\n#task-list #add-task {\n  display: flex;\n  justify-content: space-between;\n  border-bottom: 1px solid rgb(228, 228, 228);\n}\n#task-list #add-task #task-text {\n  border: none;\n  padding: 1rem;\n  box-sizing: border-box;\n}\n#task-list #add-task #add-task-btn {\n  padding: 0.6rem 0.8rem;\n  margin: 0.6rem;\n  box-shadow: 3px 3px 6px 1px rgba(199, 199, 199, 0.8);\n  border: none;\n  background-color: white;\n}\n#task-list .check-all {\n  display: flex;\n  align-items: center;\n  gap: 15px;\n  width: 100%;\n  font-size: 1.5rem;\n  border-bottom: 1px solid rgb(228, 228, 228);\n  padding: 0 1rem;\n  height: 4rem;\n}\n#task-list ul {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-around;\n  list-style: none;\n}\n#task-list ul li {\n  display: flex;\n  justify-content: space-between;\n  width: 100%;\n  font-size: 1.5rem;\n  border-bottom: 1px solid rgb(228, 228, 228);\n  padding: 0 1rem;\n  height: 4rem;\n}\n#task-list ul li .task-info {\n  display: flex;\n  width: 100%;\n  gap: 1.5rem;\n}\n#task-list ul li .task-info .checkbox {\n  background-color: white;\n}\n#task-list ul li .task-info .task-text {\n  border: none;\n  height: 100%;\n  width: 92%;\n  background-color: transparent;\n}\n#task-list ul li .task-info .task-text.done {\n  text-decoration: line-through;\n}\n#task-list ul li .delete-btn {\n  border: none;\n  background-color: transparent;\n}\n#task-list #clear-btn {\n  border: none;\n  padding: 1rem;\n  color: rgb(104, 104, 104);\n  background-color: rgb(240, 240, 240);\n}", "",{"version":3,"sources":["webpack://./src/style.scss"],"names":[],"mappings":"AAAA;;;EAGE,8BAAA;EACA,2BAAA;EACA,sBAAA;AACF;;AAEA;EACE,UAAA;EACA,SAAA;AACF;;AAEA;EACE,gBAAA;EACA,uBAAA;AACF;;AAEA;EACE,WAAA;EACA,aAAA;EACA,mBAAA;EACA,6BAAA;AACF;AACE;EACE,UAAA;AACJ;;AAGA;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,6BAAA;EACA,uBAAA;EACA,gBAAA;EACA,qDAAA;AAAF;AAEE;EACE,WAAA;AAAJ;AAGE;EACE,aAAA;EACA,8BAAA;EACA,2CAAA;EACA,aAAA;AADJ;AAIE;EACE,aAAA;EACA,8BAAA;EACA,2CAAA;AAFJ;AAII;EACE,YAAA;EACA,aAAA;EACA,sBAAA;AAFN;AAKI;EACE,sBAAA;EACA,cAAA;EACA,oDAAA;EACA,YAAA;EACA,uBAAA;AAHN;AAOE;EACE,aAAA;EACA,mBAAA;EACA,SAAA;EACA,WAAA;EACA,iBAAA;EACA,2CAAA;EACA,eAAA;EACA,YAAA;AALJ;AAQE;EACE,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,6BAAA;EACA,gBAAA;AANJ;AAQI;EACE,aAAA;EACA,8BAAA;EACA,WAAA;EACA,iBAAA;EACA,2CAAA;EACA,eAAA;EACA,YAAA;AANN;AAQM;EACE,aAAA;EACA,WAAA;EACA,WAAA;AANR;AAQQ;EACE,uBAAA;AANV;AASQ;EACE,YAAA;EACA,YAAA;EACA,UAAA;EACA,6BAAA;AAPV;AAUQ;EACE,6BAAA;AARV;AAYM;EACE,YAAA;EACA,6BAAA;AAVR;AAeE;EACE,YAAA;EACA,aAAA;EACA,yBAAA;EACA,oCAAA;AAbJ","sourcesContent":["*,\n*::before,\n*::after {\n  -webkit-box-sizing: border-box;\n  -moz-box-sizing: border-box;\n  box-sizing: border-box;\n}\n\n* {\n  padding: 0;\n  margin: 0;\n}\n\nhtml {\n  font-size: 62.5%;\n  scroll-behavior: smooth;\n}\n\nmain {\n  width: 100%;\n  display: flex;\n  align-items: center;\n  justify-content: space-around;\n\n  >* {\n    width: 90%;\n  }\n}\n\n#task-list {\n  display: flex;\n  flex-direction: column;\n  align-items: center;\n  justify-content: space-around;\n  background-color: white;\n  margin-top: 1rem;\n  box-shadow: 5px 5px 10px 2px rgba(163, 163, 163, 0.8);\n\n  >* {\n    width: 100%;\n  }\n\n  #list-title {\n    display: flex;\n    justify-content: space-between;\n    border-bottom: 1px solid rgb(228, 228, 228);\n    padding: 1rem;\n  }\n\n  #add-task {\n    display: flex;\n    justify-content: space-between;\n    border-bottom: 1px solid rgb(228, 228, 228);\n\n    #task-text {\n      border: none;\n      padding: 1rem;\n      box-sizing: border-box;\n    }\n\n    #add-task-btn {\n      padding: 0.6rem 0.8rem;\n      margin: 0.6rem;\n      box-shadow: 3px 3px 6px 1px rgba(199, 199, 199, 0.8);\n      border: none;\n      background-color: white;\n    }\n  }\n\n  .check-all {\n    display: flex;\n    align-items: center;\n    gap: 15px;\n    width: 100%;\n    font-size: 1.5rem;\n    border-bottom: 1px solid rgb(228, 228, 228);\n    padding: 0 1rem;\n    height: 4rem;\n  }\n\n  ul {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    justify-content: space-around;\n    list-style: none;\n\n    li {\n      display: flex;\n      justify-content: space-between;\n      width: 100%;\n      font-size: 1.5rem;\n      border-bottom: 1px solid rgb(228, 228, 228);\n      padding: 0 1rem;\n      height: 4rem;\n\n      .task-info {\n        display: flex;\n        width: 100%;\n        gap: 1.5rem;\n\n        .checkbox {\n          background-color: white;\n        }\n\n        .task-text {\n          border: none;\n          height: 100%;\n          width: 92%;\n          background-color: transparent;\n        }\n\n        .task-text.done {\n          text-decoration: line-through;\n        }\n      }\n\n      .delete-btn {\n        border: none;\n        background-color: transparent;\n      }\n    }\n  }\n\n  #clear-btn {\n    border: none;\n    padding: 1rem;\n    color: rgb(104, 104, 104);\n    background-color: rgb(240, 240, 240);\n  }\n}\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 
@@ -537,7 +537,7 @@ module.exports = styleTagTransform;
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ "./src/style.scss");
-/* harmony import */ var _modules_createTask__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/createTask */ "./src/modules/createTask.js");
+/* harmony import */ var _modules_addTask__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/addTask */ "./src/modules/addTask.js");
 /* harmony import */ var _modules_deleteTask__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/deleteTask */ "./src/modules/deleteTask.js");
 /* harmony import */ var _modules_getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/getDataFromLocalStorage */ "./src/modules/getDataFromLocalStorage.js");
 /* harmony import */ var _modules_saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/saveAtLocalStorage */ "./src/modules/saveAtLocalStorage.js");
@@ -545,6 +545,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _modules_renderList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/renderList */ "./src/modules/renderList.js");
 /* harmony import */ var _modules_editTask__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/editTask */ "./src/modules/editTask.js");
 /* harmony import */ var _modules_updateStatus__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/updateStatus */ "./src/modules/updateStatus.js");
+/* harmony import */ var _modules_drag_drop__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/drag&drop */ "./src/modules/drag&drop.js");
+
 
 
 
@@ -561,24 +563,13 @@ const addTaskBtn = document.getElementById('add-task-btn');
 const listPlaceholder = document.getElementById('list-placeholder');
 const clearButton = document.getElementById('clear-btn');
 
-// ADD A TASK
-addTaskBtn.addEventListener('click', () => {
-  const addTaskDescInput = document.getElementById('task-text').value;
-  if (addTaskDescInput !== '') {
-    const taskListArr = (0,_modules_getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_3__["default"])();
-    const index = (taskListArr.length + 1);
-    const newTask = (0,_modules_createTask__WEBPACK_IMPORTED_MODULE_1__["default"])(addTaskDescInput, index);
-    taskListArr.push(newTask);
-    (0,_modules_saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_4__["default"])(taskListArr);
-    (0,_modules_renderList__WEBPACK_IMPORTED_MODULE_6__["default"])();
-  }
-});
+addTaskBtn.addEventListener('click', _modules_addTask__WEBPACK_IMPORTED_MODULE_1__["default"]);
 
 // EDIT A TASK
 listPlaceholder.addEventListener('click', (e) => {
   if (e.target.tagName === 'INPUT' && e.target.classList.contains('task-text')) {
     const taskDescription = e.target;
-    let index = taskDescription.parentElement.parentElement.id;
+    const index = taskDescription.parentElement.parentElement.id;
     taskDescription.addEventListener('keydown', (e) => {
       if (e.keyCode === 13 && taskDescription.value !== '') {
         (0,_modules_editTask__WEBPACK_IMPORTED_MODULE_7__["default"])(taskDescription.value, index);
@@ -588,6 +579,7 @@ listPlaceholder.addEventListener('click', (e) => {
 });
 
 // DELETE A TASK
+
 listPlaceholder.addEventListener('click', (e) => {
   if (e.target.className === 'fa-solid fa-trash-can') { // element clicked is the trash icon
     // get the index of the button (same as the object Index: in the array)
@@ -603,9 +595,9 @@ listPlaceholder.addEventListener('click', (e) => {
   if (e.target.tagName === 'INPUT' && e.target.classList.contains('checkbox')) {
     const checkbox = e.target;
     const taskText = checkbox.nextElementSibling;
-    taskText.classList.toggle("done");
+    taskText.classList.toggle('done');
     const completed = checkbox.checked;
-    let index = checkbox.parentElement.parentElement.id;
+    const index = checkbox.parentElement.parentElement.id;
     (0,_modules_updateStatus__WEBPACK_IMPORTED_MODULE_8__["default"])(index, completed);
   }
 });
@@ -624,76 +616,57 @@ clearButton.addEventListener('click', () => {
 
 // DRAG AND DROP
 listPlaceholder.addEventListener('dragstart', (e) => {
-  if (e.target.classList.contains("task-text")) {
-    let index = e.target.parentElement.parentElement.id;
-    console.log(index);
+  if (e.target.classList.contains('task-text')) {
+    const index = e.target.parentElement.parentElement.id;
     localStorage.setItem('startDragIndex', JSON.stringify(index));
   }
-
-})
-
-let dragTarget = document.getElementsByClassName("task");
-console.log("LI Items", dragTarget);
-const dragTargetArr = Array.from(dragTarget);
-console.log("Array from : ", dragTargetArr);
-// dragTarget.forEach(target => {
-//   target.addEventListener('dragover', dragOver);
-//   target.addEventListener("drop", dragDrop);
-// });
-
-// listPlaceholder.addEventListener('drag', (e) => {
-//   if (e.target.classList.contains("task-text")) {
-
-//     draggable.addEventListener("dragstart", dragStart);
-//   }
-// })
-// if (e.target.tagName === 'LI') {
-//   const dragTarget = e.target
-//   dragTarget.addEventListener("dragover", dragOver);
-//   dragTarget.addEventListener("drop", dragDrop);
-// }
-
-
-// listPlaceholder.addEventListener('drag', (e) => {
-
-//   if (e.target.tagName === 'LI') {
-//     const dragTarget = e.target
-//     dragTarget.addEventListener("dragstart", dragStart);
-//     dragTarget.addEventListener("dragover", dragOver);
-//     dragTarget.addEventListener("drop", dragDrop);
-//   }
-// });
-
-function dragOver(e) {
-  console.log("dragOver");
-  //colocar margin-top: 40px;
-  e.preventDefault();
-}
-
-function dragDrop() {
-  let dragEndIndex = [...this.classList];
-  dragEndIndex = +dragEndIndex[dragEndIndex.length - 1];
-  let dragStartIndex = JSON.parse(localStorage.getItem('startDragIndex'));
-  console.log("startIndex: ", dragStartIndex);
-  console.log("dropIndex: ", dragEndIndex);
-  swapItems(dragStartIndex, dragEndIndex);
-}
-
-function swapItems(fromIndex, toIndex) {
-  let taskListArr = (0,_modules_getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_3__["default"])();
-  taskListArr[fromIndex - 1].Index = toIndex;
-  taskListArr[toIndex - 1].Index = fromIndex;
-  taskListArr.sort((a, b) => a.Index - b.Index);
-  (0,_modules_saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_4__["default"])(taskListArr);
-  (0,_modules_clearList__WEBPACK_IMPORTED_MODULE_5__["default"])();
-  (0,_modules_renderList__WEBPACK_IMPORTED_MODULE_6__["default"])();
-}
-
-
+  const dragTargetArr = [...listPlaceholder.getElementsByTagName('li')];
+  dragTargetArr.forEach((target) => {
+    target.addEventListener('dragover', _modules_drag_drop__WEBPACK_IMPORTED_MODULE_9__.dragOver());
+    target.addEventListener('drop', _modules_drag_drop__WEBPACK_IMPORTED_MODULE_9__.dragDrop());
+  });
+});
 
 // SHOW LIST ON HTML
 (0,_modules_renderList__WEBPACK_IMPORTED_MODULE_6__["default"])();
-const focusBackToInput = document.getElementById('task-text').focus();
+document.getElementById('task-text').focus();
+
+
+/***/ }),
+
+/***/ "./src/modules/addTask.js":
+/*!********************************!*\
+  !*** ./src/modules/addTask.js ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getDataFromLocalStorage */ "./src/modules/getDataFromLocalStorage.js");
+/* harmony import */ var _createTask__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./createTask */ "./src/modules/createTask.js");
+/* harmony import */ var _saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./saveAtLocalStorage */ "./src/modules/saveAtLocalStorage.js");
+/* harmony import */ var _renderList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./renderList */ "./src/modules/renderList.js");
+
+
+
+
+
+// ADD A TASK
+const Add = () => {
+  const addTaskDescInput = document.getElementById('task-text').value;
+  if (addTaskDescInput !== '') {
+    const taskListArr = (0,_getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_0__["default"])();
+    const index = (taskListArr.length + 1);
+    const newTask = (0,_createTask__WEBPACK_IMPORTED_MODULE_1__["default"])(addTaskDescInput, index);
+    taskListArr.push(newTask);
+    (0,_saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_2__["default"])(taskListArr);
+    (0,_renderList__WEBPACK_IMPORTED_MODULE_3__["default"])();
+  }
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Add);
 
 /***/ }),
 
@@ -768,6 +741,51 @@ const deleteTask = (index) => {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (deleteTask);
+
+/***/ }),
+
+/***/ "./src/modules/drag&drop.js":
+/*!**********************************!*\
+  !*** ./src/modules/drag&drop.js ***!
+  \**********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "dragDrop": () => (/* binding */ dragDrop),
+/* harmony export */   "dragOver": () => (/* binding */ dragOver),
+/* harmony export */   "swapItems": () => (/* binding */ swapItems)
+/* harmony export */ });
+/* harmony import */ var _getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getDataFromLocalStorage */ "./src/modules/getDataFromLocalStorage.js");
+/* harmony import */ var _saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./saveAtLocalStorage */ "./src/modules/saveAtLocalStorage.js");
+/* harmony import */ var _clearList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./clearList */ "./src/modules/clearList.js");
+/* harmony import */ var _renderList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./renderList */ "./src/modules/renderList.js");
+
+
+
+
+
+function dragOver() {
+  this.classList.add('drag-over');// add style margin-top: 40px;
+  e.preventDefault();
+}
+
+function swapItems(fromIndex, toIndex) {
+  const taskListArr = (0,_getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  taskListArr[fromIndex - 1].Index = toIndex;
+  taskListArr[toIndex - 1].Index = fromIndex;
+  taskListArr.sort((a, b) => a.Index - b.Index);
+  (0,_saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_1__["default"])(taskListArr);
+  (0,_clearList__WEBPACK_IMPORTED_MODULE_2__["default"])();
+  (0,_renderList__WEBPACK_IMPORTED_MODULE_3__["default"])();
+}
+
+function dragDrop() {
+  const dragEndIndex = this.id;
+  const dragStartIndex = JSON.parse(localStorage.getItem('startDragIndex'));
+  swapItems(dragStartIndex, dragEndIndex);
+}
+
 
 /***/ }),
 
@@ -850,24 +868,13 @@ const renderList = () => {
         <input class="checkbox" type="checkbox">
         <input class="task-text" type="text" value="${taskListArr[i].Description}" draggable="true"></input>
       </div>
-      <button class="actions"><i class="fa-solid fa-trash-can"></i></i></button>
+      <button class="delete-btn"><i class="fa-solid fa-trash-can"></i></i></button>
     </li>`;
     listPlaceholder.innerHTML += task;
   }
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (renderList);
-
-// for (let i = 0; i < taskListArr.length; i += 1) {
-//   const task = `<li class="task ${taskListArr[i].Index}">
-//     <div class="task-info">
-//       <input class="checkbox ${taskListArr[i].Index}" type="checkbox">
-//       <input class="task-text ${taskListArr[i].Index}" type="text" value="${taskListArr[i].Description}" draggable="true"></input>
-//     </div>
-//     <button id="${taskListArr[i].Index}" class="actions"><i class="fa-solid fa-trash-can"></i></i></button>
-//   </li>`;
-//   listPlaceholder.innerHTML += task;
-// }
 
 
 /***/ }),
