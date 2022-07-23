@@ -539,14 +539,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _style_scss__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.scss */ "./src/style.scss");
 /* harmony import */ var _modules_addTask__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./modules/addTask */ "./src/modules/addTask.js");
 /* harmony import */ var _modules_deleteTask__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/deleteTask */ "./src/modules/deleteTask.js");
-/* harmony import */ var _modules_getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/getDataFromLocalStorage */ "./src/modules/getDataFromLocalStorage.js");
-/* harmony import */ var _modules_saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/saveAtLocalStorage */ "./src/modules/saveAtLocalStorage.js");
-/* harmony import */ var _modules_clearList__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/clearList */ "./src/modules/clearList.js");
-/* harmony import */ var _modules_renderList__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/renderList */ "./src/modules/renderList.js");
-/* harmony import */ var _modules_editTask__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/editTask */ "./src/modules/editTask.js");
-/* harmony import */ var _modules_updateStatus__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/updateStatus */ "./src/modules/updateStatus.js");
-/* harmony import */ var _modules_drag_drop__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./modules/drag&drop */ "./src/modules/drag&drop.js");
-
+/* harmony import */ var _modules_clearList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/clearList */ "./src/modules/clearList.js");
+/* harmony import */ var _modules_renderList__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/renderList */ "./src/modules/renderList.js");
+/* harmony import */ var _modules_editTask__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/editTask */ "./src/modules/editTask.js");
+/* harmony import */ var _modules_clearCompleted__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/clearCompleted */ "./src/modules/clearCompleted.js");
+/* harmony import */ var _modules_updateStatus__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/updateStatus */ "./src/modules/updateStatus.js");
+/* harmony import */ var _modules_drag_drop__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/drag&drop */ "./src/modules/drag&drop.js");
 
 
 
@@ -572,21 +570,20 @@ listPlaceholder.addEventListener('click', (e) => {
     const index = taskDescription.parentElement.parentElement.id;
     taskDescription.addEventListener('keydown', (e) => {
       if (e.keyCode === 13 && taskDescription.value !== '') {
-        (0,_modules_editTask__WEBPACK_IMPORTED_MODULE_7__["default"])(taskDescription.value, index);
+        (0,_modules_editTask__WEBPACK_IMPORTED_MODULE_5__["default"])(taskDescription.value, index);
       }
     });
   }
 });
 
 // DELETE A TASK
-
 listPlaceholder.addEventListener('click', (e) => {
   if (e.target.className === 'fa-solid fa-trash-can') { // element clicked is the trash icon
     // get the index of the button (same as the object Index: in the array)
     const index = +e.target.parentElement.parentElement.id;
     (0,_modules_deleteTask__WEBPACK_IMPORTED_MODULE_2__["default"])(index);
-    (0,_modules_clearList__WEBPACK_IMPORTED_MODULE_5__["default"])();
-    (0,_modules_renderList__WEBPACK_IMPORTED_MODULE_6__["default"])();
+    (0,_modules_clearList__WEBPACK_IMPORTED_MODULE_3__["default"])();
+    (0,_modules_renderList__WEBPACK_IMPORTED_MODULE_4__["default"])();
   }
 });
 
@@ -598,21 +595,22 @@ listPlaceholder.addEventListener('click', (e) => {
     taskText.classList.toggle('done');
     const completed = checkbox.checked;
     const index = checkbox.parentElement.parentElement.id;
-    (0,_modules_updateStatus__WEBPACK_IMPORTED_MODULE_8__["default"])(index, completed);
+    (0,_modules_updateStatus__WEBPACK_IMPORTED_MODULE_7__["default"])(index, completed);
   }
 });
 
 // CLEAR ALL SELECTED ITEMS
-clearButton.addEventListener('click', () => {
-  let taskListArr = (0,_modules_getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_3__["default"])();
-  taskListArr = taskListArr.filter((task) => task.Completed !== true);
-  for (let i = 0; i < taskListArr.length; i += 1) {
-    taskListArr[i].Index = i + 1;
-  }
-  (0,_modules_saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_4__["default"])(taskListArr);
-  (0,_modules_clearList__WEBPACK_IMPORTED_MODULE_5__["default"])();
-  (0,_modules_renderList__WEBPACK_IMPORTED_MODULE_6__["default"])();
-});
+clearButton.addEventListener('click', _modules_clearCompleted__WEBPACK_IMPORTED_MODULE_6__["default"])
+//  => {
+//   let taskListArr = getArr();
+//   taskListArr = taskListArr.filter((task) => task.Completed !== true);
+//   for (let i = 0; i < taskListArr.length; i += 1) {
+//     taskListArr[i].Index = i + 1;
+//   }
+//   saveInLocalStorage(taskListArr);
+//   clearList();
+//   renderList();
+// });
 
 // DRAG AND DROP
 listPlaceholder.addEventListener('dragstart', (e) => {
@@ -622,13 +620,13 @@ listPlaceholder.addEventListener('dragstart', (e) => {
   }
   const dragTargetArr = [...listPlaceholder.getElementsByTagName('li')];
   dragTargetArr.forEach((target) => {
-    target.addEventListener('dragover', _modules_drag_drop__WEBPACK_IMPORTED_MODULE_9__.dragOver());
-    target.addEventListener('drop', _modules_drag_drop__WEBPACK_IMPORTED_MODULE_9__.dragDrop());
+    target.addEventListener('dragover', _modules_drag_drop__WEBPACK_IMPORTED_MODULE_8__.dragOver());
+    target.addEventListener('drop', _modules_drag_drop__WEBPACK_IMPORTED_MODULE_8__.dragDrop());
   });
 });
 
 // SHOW LIST ON HTML
-(0,_modules_renderList__WEBPACK_IMPORTED_MODULE_6__["default"])();
+(0,_modules_renderList__WEBPACK_IMPORTED_MODULE_4__["default"])();
 document.getElementById('task-text').focus();
 
 
@@ -667,6 +665,40 @@ const Add = () => {
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Add);
+
+/***/ }),
+
+/***/ "./src/modules/clearCompleted.js":
+/*!***************************************!*\
+  !*** ./src/modules/clearCompleted.js ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./getDataFromLocalStorage */ "./src/modules/getDataFromLocalStorage.js");
+/* harmony import */ var _saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./saveAtLocalStorage */ "./src/modules/saveAtLocalStorage.js");
+/* harmony import */ var _clearList__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./clearList */ "./src/modules/clearList.js");
+/* harmony import */ var _renderList__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./renderList */ "./src/modules/renderList.js");
+
+
+
+
+
+const clearCompleted = () => {
+  let taskListArr = (0,_getDataFromLocalStorage__WEBPACK_IMPORTED_MODULE_0__["default"])();
+  taskListArr = taskListArr.filter((task) => task.Completed !== true);
+  for (let i = 0; i < taskListArr.length; i += 1) {
+    taskListArr[i].Index = i + 1;
+  }
+  (0,_saveAtLocalStorage__WEBPACK_IMPORTED_MODULE_1__["default"])(taskListArr);
+  (0,_clearList__WEBPACK_IMPORTED_MODULE_2__["default"])();
+  (0,_renderList__WEBPACK_IMPORTED_MODULE_3__["default"])();
+}
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (clearCompleted);
 
 /***/ }),
 
@@ -765,7 +797,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function dragOver() {
+function dragOver(e) {
   this.classList.add('drag-over');// add style margin-top: 40px;
   e.preventDefault();
 }

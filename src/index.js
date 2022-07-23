@@ -1,11 +1,10 @@
 import './style.scss';
 import Add from './modules/addTask';
 import deleteTask from './modules/deleteTask';
-import getArr from './modules/getDataFromLocalStorage';
-import saveInLocalStorage from './modules/saveAtLocalStorage';
 import clearList from './modules/clearList';
 import renderList from './modules/renderList';
 import editTask from './modules/editTask';
+import clearCompleted from './modules/clearCompleted';
 import updateStatus from './modules/updateStatus';
 import * as dragNdrop from './modules/drag&drop';
 
@@ -54,16 +53,17 @@ listPlaceholder.addEventListener('click', (e) => {
 });
 
 // CLEAR ALL SELECTED ITEMS
-clearButton.addEventListener('click', () => {
-  let taskListArr = getArr();
-  taskListArr = taskListArr.filter((task) => task.Completed !== true);
-  for (let i = 0; i < taskListArr.length; i += 1) {
-    taskListArr[i].Index = i + 1;
-  }
-  saveInLocalStorage(taskListArr);
-  clearList();
-  renderList();
-});
+clearButton.addEventListener('click', clearCompleted);
+//  => {
+//   let taskListArr = getArr();
+//   taskListArr = taskListArr.filter((task) => task.Completed !== true);
+//   for (let i = 0; i < taskListArr.length; i += 1) {
+//     taskListArr[i].Index = i + 1;
+//   }
+//   saveInLocalStorage(taskListArr);
+//   clearList();
+//   renderList();
+// });
 
 // DRAG AND DROP
 listPlaceholder.addEventListener('dragstart', (e) => {

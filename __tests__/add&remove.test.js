@@ -3,8 +3,6 @@
 */
 import Add from '../src/modules/addTask';
 import deleteTask from '../src/modules/deleteTask';
-import getArr from '../src/modules/getDataFromLocalStorage';
-import saveInLocalStorage from '../src/modules/saveAtLocalStorage';
 import renderList from '../src/modules/renderList';
 import clearList from '../src/modules/clearList';
 

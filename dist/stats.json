@@ -1,8 +1,8 @@
 {
-  "hash": "ea3b5d5ae69d855b579b",
+  "hash": "18c7047f5b064c32e088",
   "version": "5.73.0",
-  "time": 722,
-  "builtAt": 1658532842279,
+  "time": 757,
+  "builtAt": 1658539883061,
   "publicPath": "auto",
   "outputPath": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/dist",
   "assetsByChunkName": {
@@ -17,7 +17,7 @@
     {
       "type": "asset",
       "name": "index.bundle.js",
-      "size": 223854,
+      "size": 225191,
       "emitted": true,
       "comparedForEmit": false,
       "cached": false,
@@ -26,7 +26,7 @@
         "related": {
           "sourceMap": "index.bundle.js.map"
         },
-        "size": 223854
+        "size": 225191
       },
       "chunkNames": [
         "index"
@@ -39,13 +39,13 @@
         {
           "type": "sourceMap",
           "name": "index.bundle.js.map",
-          "size": 260144,
+          "size": 260846,
           "emitted": true,
           "comparedForEmit": false,
           "cached": false,
           "info": {
             "development": true,
-            "size": 260144
+            "size": 260846
           },
           "chunkNames": [],
           "chunkIdHints": [],
@@ -146,9 +146,9 @@
       "initial": true,
       "entry": false,
       "recorded": false,
-      "size": 186031,
+      "size": 186511,
       "sizes": {
-        "javascript": 186031
+        "javascript": 186511
       },
       "names": [
         "index"
@@ -163,7 +163,7 @@
       "auxiliaryFiles": [
         "index.bundle.js.map"
       ],
-      "hash": "9099f4e775e36184275e",
+      "hash": "9e62d3a908c70c6609eb",
       "childrenByOrder": {},
       "id": "index",
       "siblings": [
@@ -3696,9 +3696,9 @@
           "type": "module",
           "moduleType": "javascript/auto",
           "layer": null,
-          "size": 2909,
+          "size": 2889,
           "sizes": {
-            "javascript": 2909
+            "javascript": 2889
           },
           "built": true,
           "codeGenerated": true,
@@ -3709,8 +3709,8 @@
           "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
           "index": 22,
           "preOrderIndex": 22,
-          "index2": 42,
-          "postOrderIndex": 42,
+          "index2": 43,
+          "postOrderIndex": 43,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -3814,7 +3814,85 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/addTask",
-              "loc": "18:37-40",
+              "loc": "17:37-40",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [
+            "default"
+          ],
+          "optimizationBailout": [],
+          "depth": 1
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 500,
+          "sizes": {
+            "javascript": 500
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "name": "./src/modules/clearCompleted.js",
+          "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "index": 41,
+          "preOrderIndex": 41,
+          "index2": 40,
+          "postOrderIndex": 40,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": true,
+          "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+          "issuerName": "./src/index.js",
+          "issuerPath": [
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+              "name": "./src/index.js",
+              "id": "./src/index.js"
+            }
+          ],
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./src/modules/clearCompleted.js",
+          "issuerId": "./src/index.js",
+          "chunks": [
+            "index"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/clearCompleted",
+              "loc": "7:0-54",
+              "moduleId": "./src/index.js",
+              "resolvedModuleId": "./src/index.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+              "module": "./src/index.js",
+              "moduleName": "./src/index.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+              "resolvedModule": "./src/index.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./modules/clearCompleted",
+              "loc": "56:38-52",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -3878,7 +3956,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/clearList",
-              "loc": "6:0-44",
+              "loc": "4:0-44",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -3892,23 +3970,37 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/clearList",
-              "loc": "39:4-13",
+              "loc": "38:4-13",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
             {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "resolvedModule": "./src/index.js",
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "module": "./src/modules/clearCompleted.js",
+              "moduleName": "./src/modules/clearCompleted.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "resolvedModule": "./src/modules/clearCompleted.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./clearList",
+              "loc": "3:0-36",
+              "moduleId": "./src/modules/clearCompleted.js",
+              "resolvedModuleId": "./src/modules/clearCompleted.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "module": "./src/modules/clearCompleted.js",
+              "moduleName": "./src/modules/clearCompleted.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "resolvedModule": "./src/modules/clearCompleted.js",
               "type": "harmony import specifier",
               "active": true,
               "explanation": "",
-              "userRequest": "./modules/clearList",
-              "loc": "64:2-11",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
+              "userRequest": "./clearList",
+              "loc": "13:2-11",
+              "moduleId": "./src/modules/clearCompleted.js",
+              "resolvedModuleId": "./src/modules/clearCompleted.js"
             },
             {
               "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
@@ -4123,7 +4215,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/deleteTask",
-              "loc": "38:4-14",
+              "loc": "37:4-14",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -4150,10 +4242,10 @@
           "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
           "name": "./src/modules/drag&drop.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "index": 42,
-          "preOrderIndex": 42,
-          "index2": 41,
-          "postOrderIndex": 41,
+          "index": 43,
+          "preOrderIndex": 43,
+          "index2": 42,
+          "postOrderIndex": 42,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -4187,7 +4279,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/drag&drop",
-              "loc": "10:0-49",
+              "loc": "9:0-49",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4281,7 +4373,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/editTask",
-              "loc": "8:0-42",
+              "loc": "6:0-42",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4295,7 +4387,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/editTask",
-              "loc": "27:8-16",
+              "loc": "26:8-16",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -4330,53 +4422,30 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "issuerName": "./src/index.js",
+          "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "issuerName": "./src/modules/addTask.js",
           "issuerPath": [
             {
               "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
               "name": "./src/index.js",
               "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+              "name": "./src/modules/addTask.js",
+              "id": "./src/modules/addTask.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./src/modules/getDataFromLocalStorage.js",
-          "issuerId": "./src/index.js",
+          "issuerId": "./src/modules/addTask.js",
           "chunks": [
             "index"
           ],
           "assets": [],
           "reasons": [
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/getDataFromLocalStorage",
-              "loc": "4:0-55",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/getDataFromLocalStorage",
-              "loc": "58:20-26",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
             {
               "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
               "module": "./src/modules/addTask.js",
@@ -4404,6 +4473,34 @@
               "loc": "10:24-30",
               "moduleId": "./src/modules/addTask.js",
               "resolvedModuleId": "./src/modules/addTask.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "module": "./src/modules/clearCompleted.js",
+              "moduleName": "./src/modules/clearCompleted.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "resolvedModule": "./src/modules/clearCompleted.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./getDataFromLocalStorage",
+              "loc": "1:0-47",
+              "moduleId": "./src/modules/clearCompleted.js",
+              "resolvedModuleId": "./src/modules/clearCompleted.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "module": "./src/modules/clearCompleted.js",
+              "moduleName": "./src/modules/clearCompleted.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "resolvedModule": "./src/modules/clearCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./getDataFromLocalStorage",
+              "loc": "7:20-26",
+              "moduleId": "./src/modules/clearCompleted.js",
+              "resolvedModuleId": "./src/modules/clearCompleted.js"
             },
             {
               "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
@@ -4551,7 +4648,7 @@
             "default"
           ],
           "optimizationBailout": [],
-          "depth": 1
+          "depth": 2
         },
         {
           "type": "module",
@@ -4605,7 +4702,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderList",
-              "loc": "7:0-46",
+              "loc": "5:0-46",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4619,21 +4716,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/renderList",
-              "loc": "40:4-14",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/renderList",
-              "loc": "65:2-12",
+              "loc": "39:4-14",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -4678,6 +4761,34 @@
               "loc": "15:4-14",
               "moduleId": "./src/modules/addTask.js",
               "resolvedModuleId": "./src/modules/addTask.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "module": "./src/modules/clearCompleted.js",
+              "moduleName": "./src/modules/clearCompleted.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "resolvedModule": "./src/modules/clearCompleted.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./renderList",
+              "loc": "4:0-38",
+              "moduleId": "./src/modules/clearCompleted.js",
+              "resolvedModuleId": "./src/modules/clearCompleted.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "module": "./src/modules/clearCompleted.js",
+              "moduleName": "./src/modules/clearCompleted.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "resolvedModule": "./src/modules/clearCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./renderList",
+              "loc": "14:2-12",
+              "moduleId": "./src/modules/clearCompleted.js",
+              "resolvedModuleId": "./src/modules/clearCompleted.js"
             },
             {
               "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
@@ -4766,53 +4877,30 @@
           "optional": false,
           "orphan": false,
           "dependent": true,
-          "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "issuerName": "./src/index.js",
+          "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "issuerName": "./src/modules/addTask.js",
           "issuerPath": [
             {
               "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
               "name": "./src/index.js",
               "id": "./src/index.js"
+            },
+            {
+              "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+              "name": "./src/modules/addTask.js",
+              "id": "./src/modules/addTask.js"
             }
           ],
           "failed": false,
           "errors": 0,
           "warnings": 0,
           "id": "./src/modules/saveAtLocalStorage.js",
-          "issuerId": "./src/index.js",
+          "issuerId": "./src/modules/addTask.js",
           "chunks": [
             "index"
           ],
           "assets": [],
           "reasons": [
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony side effect evaluation",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/saveAtLocalStorage",
-              "loc": "5:0-62",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
-            {
-              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "module": "./src/index.js",
-              "moduleName": "./src/index.js",
-              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-              "resolvedModule": "./src/index.js",
-              "type": "harmony import specifier",
-              "active": true,
-              "explanation": "",
-              "userRequest": "./modules/saveAtLocalStorage",
-              "loc": "63:2-20",
-              "moduleId": "./src/index.js",
-              "resolvedModuleId": "./src/index.js"
-            },
             {
               "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
               "module": "./src/modules/addTask.js",
@@ -4840,6 +4928,34 @@
               "loc": "14:4-22",
               "moduleId": "./src/modules/addTask.js",
               "resolvedModuleId": "./src/modules/addTask.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "module": "./src/modules/clearCompleted.js",
+              "moduleName": "./src/modules/clearCompleted.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "resolvedModule": "./src/modules/clearCompleted.js",
+              "type": "harmony side effect evaluation",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./saveAtLocalStorage",
+              "loc": "2:0-54",
+              "moduleId": "./src/modules/clearCompleted.js",
+              "resolvedModuleId": "./src/modules/clearCompleted.js"
+            },
+            {
+              "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "module": "./src/modules/clearCompleted.js",
+              "moduleName": "./src/modules/clearCompleted.js",
+              "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+              "resolvedModule": "./src/modules/clearCompleted.js",
+              "type": "harmony import specifier",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./saveAtLocalStorage",
+              "loc": "12:2-20",
+              "moduleId": "./src/modules/clearCompleted.js",
+              "resolvedModuleId": "./src/modules/clearCompleted.js"
             },
             {
               "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
@@ -4959,7 +5075,7 @@
             "default"
           ],
           "optimizationBailout": [],
-          "depth": 1
+          "depth": 2
         },
         {
           "type": "module",
@@ -4976,10 +5092,10 @@
           "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
           "name": "./src/modules/updateStatus.js",
           "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "index": 41,
-          "preOrderIndex": 41,
-          "index2": 40,
-          "postOrderIndex": 40,
+          "index": 42,
+          "preOrderIndex": 42,
+          "index2": 41,
+          "postOrderIndex": 41,
           "cacheable": true,
           "optional": false,
           "orphan": false,
@@ -5013,7 +5129,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/updateStatus",
-              "loc": "9:0-50",
+              "loc": "8:0-50",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             },
@@ -5027,7 +5143,7 @@
               "active": true,
               "explanation": "",
               "userRequest": "./modules/updateStatus",
-              "loc": "52:4-16",
+              "loc": "51:4-16",
               "moduleId": "./src/index.js",
               "resolvedModuleId": "./src/index.js"
             }
@@ -5150,7 +5266,7 @@
       "auxiliaryFiles": [
         "runtime.bundle.js.map"
       ],
-      "hash": "78408917544d7ff42d94",
+      "hash": "defeacd37268eb91d279",
       "childrenByOrder": {},
       "id": "runtime",
       "siblings": [
@@ -5802,9 +5918,9 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
-      "size": 2909,
+      "size": 2889,
       "sizes": {
-        "javascript": 2909
+        "javascript": 2889
       },
       "built": true,
       "codeGenerated": true,
@@ -5815,8 +5931,8 @@
       "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
       "index": 22,
       "preOrderIndex": 22,
-      "index2": 42,
-      "postOrderIndex": 42,
+      "index2": 43,
+      "postOrderIndex": 43,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -7420,471 +7536,9 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/addTask",
-          "loc": "18:37-40",
+          "loc": "17:37-40",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 206,
-      "sizes": {
-        "javascript": 206
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/getDataFromLocalStorage.js",
-      "name": "./src/modules/getDataFromLocalStorage.js",
-      "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/getDataFromLocalStorage.js",
-      "index": 34,
-      "preOrderIndex": 34,
-      "index2": 32,
-      "postOrderIndex": 32,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/modules/getDataFromLocalStorage.js",
-      "issuerId": "./src/index.js",
-      "chunks": [
-        "index"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/getDataFromLocalStorage",
-          "loc": "4:0-55",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/getDataFromLocalStorage",
-          "loc": "58:20-26",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
-          "module": "./src/modules/addTask.js",
-          "moduleName": "./src/modules/addTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
-          "resolvedModule": "./src/modules/addTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "1:0-47",
-          "moduleId": "./src/modules/addTask.js",
-          "resolvedModuleId": "./src/modules/addTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
-          "module": "./src/modules/addTask.js",
-          "moduleName": "./src/modules/addTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
-          "resolvedModule": "./src/modules/addTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "10:24-30",
-          "moduleId": "./src/modules/addTask.js",
-          "resolvedModuleId": "./src/modules/addTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
-          "module": "./src/modules/deleteTask.js",
-          "moduleName": "./src/modules/deleteTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
-          "resolvedModule": "./src/modules/deleteTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "1:0-47",
-          "moduleId": "./src/modules/deleteTask.js",
-          "resolvedModuleId": "./src/modules/deleteTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
-          "module": "./src/modules/deleteTask.js",
-          "moduleName": "./src/modules/deleteTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
-          "resolvedModule": "./src/modules/deleteTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "5:20-26",
-          "moduleId": "./src/modules/deleteTask.js",
-          "resolvedModuleId": "./src/modules/deleteTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "module": "./src/modules/drag&drop.js",
-          "moduleName": "./src/modules/drag&drop.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "resolvedModule": "./src/modules/drag&drop.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "1:0-47",
-          "moduleId": "./src/modules/drag&drop.js",
-          "resolvedModuleId": "./src/modules/drag&drop.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "module": "./src/modules/drag&drop.js",
-          "moduleName": "./src/modules/drag&drop.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "resolvedModule": "./src/modules/drag&drop.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "12:22-28",
-          "moduleId": "./src/modules/drag&drop.js",
-          "resolvedModuleId": "./src/modules/drag&drop.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
-          "module": "./src/modules/editTask.js",
-          "moduleName": "./src/modules/editTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
-          "resolvedModule": "./src/modules/editTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "1:0-47",
-          "moduleId": "./src/modules/editTask.js",
-          "resolvedModuleId": "./src/modules/editTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
-          "module": "./src/modules/editTask.js",
-          "moduleName": "./src/modules/editTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
-          "resolvedModule": "./src/modules/editTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "8:22-28",
-          "moduleId": "./src/modules/editTask.js",
-          "resolvedModuleId": "./src/modules/editTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js",
-          "module": "./src/modules/renderList.js",
-          "moduleName": "./src/modules/renderList.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js",
-          "resolvedModule": "./src/modules/renderList.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "1:0-47",
-          "moduleId": "./src/modules/renderList.js",
-          "resolvedModuleId": "./src/modules/renderList.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js",
-          "module": "./src/modules/renderList.js",
-          "moduleName": "./src/modules/renderList.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js",
-          "resolvedModule": "./src/modules/renderList.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "4:22-28",
-          "moduleId": "./src/modules/renderList.js",
-          "resolvedModuleId": "./src/modules/renderList.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "module": "./src/modules/updateStatus.js",
-          "moduleName": "./src/modules/updateStatus.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "resolvedModule": "./src/modules/updateStatus.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "1:0-47",
-          "moduleId": "./src/modules/updateStatus.js",
-          "resolvedModuleId": "./src/modules/updateStatus.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "module": "./src/modules/updateStatus.js",
-          "moduleName": "./src/modules/updateStatus.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "resolvedModule": "./src/modules/updateStatus.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./getDataFromLocalStorage",
-          "loc": "6:22-28",
-          "moduleId": "./src/modules/updateStatus.js",
-          "resolvedModuleId": "./src/modules/updateStatus.js"
-        }
-      ],
-      "usedExports": null,
-      "providedExports": [
-        "default"
-      ],
-      "optimizationBailout": [],
-      "depth": 1
-    },
-    {
-      "type": "module",
-      "moduleType": "javascript/auto",
-      "layer": null,
-      "size": 187,
-      "sizes": {
-        "javascript": 187
-      },
-      "built": true,
-      "codeGenerated": true,
-      "buildTimeExecuted": false,
-      "cached": false,
-      "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/saveAtLocalStorage.js",
-      "name": "./src/modules/saveAtLocalStorage.js",
-      "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/saveAtLocalStorage.js",
-      "index": 36,
-      "preOrderIndex": 36,
-      "index2": 34,
-      "postOrderIndex": 34,
-      "cacheable": true,
-      "optional": false,
-      "orphan": false,
-      "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-      "issuerName": "./src/index.js",
-      "issuerPath": [
-        {
-          "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "name": "./src/index.js",
-          "id": "./src/index.js"
-        }
-      ],
-      "failed": false,
-      "errors": 0,
-      "warnings": 0,
-      "id": "./src/modules/saveAtLocalStorage.js",
-      "issuerId": "./src/index.js",
-      "chunks": [
-        "index"
-      ],
-      "assets": [],
-      "reasons": [
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/saveAtLocalStorage",
-          "loc": "5:0-62",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/saveAtLocalStorage",
-          "loc": "63:2-20",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
-          "module": "./src/modules/addTask.js",
-          "moduleName": "./src/modules/addTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
-          "resolvedModule": "./src/modules/addTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "3:0-54",
-          "moduleId": "./src/modules/addTask.js",
-          "resolvedModuleId": "./src/modules/addTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
-          "module": "./src/modules/addTask.js",
-          "moduleName": "./src/modules/addTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
-          "resolvedModule": "./src/modules/addTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "14:4-22",
-          "moduleId": "./src/modules/addTask.js",
-          "resolvedModuleId": "./src/modules/addTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
-          "module": "./src/modules/deleteTask.js",
-          "moduleName": "./src/modules/deleteTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
-          "resolvedModule": "./src/modules/deleteTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "2:0-54",
-          "moduleId": "./src/modules/deleteTask.js",
-          "resolvedModuleId": "./src/modules/deleteTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
-          "module": "./src/modules/deleteTask.js",
-          "moduleName": "./src/modules/deleteTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
-          "resolvedModule": "./src/modules/deleteTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "12:2-20",
-          "moduleId": "./src/modules/deleteTask.js",
-          "resolvedModuleId": "./src/modules/deleteTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "module": "./src/modules/drag&drop.js",
-          "moduleName": "./src/modules/drag&drop.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "resolvedModule": "./src/modules/drag&drop.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "2:0-54",
-          "moduleId": "./src/modules/drag&drop.js",
-          "resolvedModuleId": "./src/modules/drag&drop.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "module": "./src/modules/drag&drop.js",
-          "moduleName": "./src/modules/drag&drop.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-          "resolvedModule": "./src/modules/drag&drop.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "16:2-20",
-          "moduleId": "./src/modules/drag&drop.js",
-          "resolvedModuleId": "./src/modules/drag&drop.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
-          "module": "./src/modules/editTask.js",
-          "moduleName": "./src/modules/editTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
-          "resolvedModule": "./src/modules/editTask.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "2:0-54",
-          "moduleId": "./src/modules/editTask.js",
-          "resolvedModuleId": "./src/modules/editTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
-          "module": "./src/modules/editTask.js",
-          "moduleName": "./src/modules/editTask.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
-          "resolvedModule": "./src/modules/editTask.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "10:2-20",
-          "moduleId": "./src/modules/editTask.js",
-          "resolvedModuleId": "./src/modules/editTask.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "module": "./src/modules/updateStatus.js",
-          "moduleName": "./src/modules/updateStatus.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "resolvedModule": "./src/modules/updateStatus.js",
-          "type": "harmony side effect evaluation",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "2:0-54",
-          "moduleId": "./src/modules/updateStatus.js",
-          "resolvedModuleId": "./src/modules/updateStatus.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "module": "./src/modules/updateStatus.js",
-          "moduleName": "./src/modules/updateStatus.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-          "resolvedModule": "./src/modules/updateStatus.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./saveAtLocalStorage",
-          "loc": "8:2-20",
-          "moduleId": "./src/modules/updateStatus.js",
-          "resolvedModuleId": "./src/modules/updateStatus.js"
         }
       ],
       "usedExports": null,
@@ -7945,7 +7599,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderList",
-          "loc": "7:0-46",
+          "loc": "5:0-46",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -7959,21 +7613,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/renderList",
-          "loc": "40:4-14",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
-        },
-        {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "resolvedModule": "./src/index.js",
-          "type": "harmony import specifier",
-          "active": true,
-          "explanation": "",
-          "userRequest": "./modules/renderList",
-          "loc": "65:2-12",
+          "loc": "39:4-14",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8018,6 +7658,34 @@
           "loc": "15:4-14",
           "moduleId": "./src/modules/addTask.js",
           "resolvedModuleId": "./src/modules/addTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "module": "./src/modules/clearCompleted.js",
+          "moduleName": "./src/modules/clearCompleted.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "resolvedModule": "./src/modules/clearCompleted.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./renderList",
+          "loc": "4:0-38",
+          "moduleId": "./src/modules/clearCompleted.js",
+          "resolvedModuleId": "./src/modules/clearCompleted.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "module": "./src/modules/clearCompleted.js",
+          "moduleName": "./src/modules/clearCompleted.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "resolvedModule": "./src/modules/clearCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./renderList",
+          "loc": "14:2-12",
+          "moduleId": "./src/modules/clearCompleted.js",
+          "resolvedModuleId": "./src/modules/clearCompleted.js"
         },
         {
           "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
@@ -8148,7 +7816,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/deleteTask",
-          "loc": "38:4-14",
+          "loc": "37:4-14",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -8211,7 +7879,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/clearList",
-          "loc": "6:0-44",
+          "loc": "4:0-44",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8225,23 +7893,37 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/clearList",
-          "loc": "39:4-13",
+          "loc": "38:4-13",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
         {
-          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "module": "./src/index.js",
-          "moduleName": "./src/index.js",
-          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
-          "resolvedModule": "./src/index.js",
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "module": "./src/modules/clearCompleted.js",
+          "moduleName": "./src/modules/clearCompleted.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "resolvedModule": "./src/modules/clearCompleted.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./clearList",
+          "loc": "3:0-36",
+          "moduleId": "./src/modules/clearCompleted.js",
+          "resolvedModuleId": "./src/modules/clearCompleted.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "module": "./src/modules/clearCompleted.js",
+          "moduleName": "./src/modules/clearCompleted.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "resolvedModule": "./src/modules/clearCompleted.js",
           "type": "harmony import specifier",
           "active": true,
           "explanation": "",
-          "userRequest": "./modules/clearList",
-          "loc": "64:2-11",
-          "moduleId": "./src/index.js",
-          "resolvedModuleId": "./src/index.js"
+          "userRequest": "./clearList",
+          "loc": "13:2-11",
+          "moduleId": "./src/modules/clearCompleted.js",
+          "resolvedModuleId": "./src/modules/clearCompleted.js"
         },
         {
           "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
@@ -8358,7 +8040,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/editTask",
-          "loc": "8:0-42",
+          "loc": "6:0-42",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8372,7 +8054,84 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/editTask",
-          "loc": "27:8-16",
+          "loc": "26:8-16",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 1
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 500,
+      "sizes": {
+        "javascript": 500
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+      "name": "./src/modules/clearCompleted.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+      "index": 41,
+      "preOrderIndex": 41,
+      "index2": 40,
+      "postOrderIndex": 40,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+      "issuerName": "./src/index.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/clearCompleted.js",
+      "issuerId": "./src/index.js",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/clearCompleted",
+          "loc": "7:0-54",
+          "moduleId": "./src/index.js",
+          "resolvedModuleId": "./src/index.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+          "module": "./src/index.js",
+          "moduleName": "./src/index.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+          "resolvedModule": "./src/index.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./modules/clearCompleted",
+          "loc": "56:38-52",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -8399,10 +8158,10 @@
       "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
       "name": "./src/modules/updateStatus.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
-      "index": 41,
-      "preOrderIndex": 41,
-      "index2": 40,
-      "postOrderIndex": 40,
+      "index": 42,
+      "preOrderIndex": 42,
+      "index2": 41,
+      "postOrderIndex": 41,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -8435,7 +8194,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/updateStatus",
-          "loc": "9:0-50",
+          "loc": "8:0-50",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -8449,7 +8208,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/updateStatus",
-          "loc": "52:4-16",
+          "loc": "51:4-16",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         }
@@ -8476,10 +8235,10 @@
       "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
       "name": "./src/modules/drag&drop.js",
       "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
-      "index": 42,
-      "preOrderIndex": 42,
-      "index2": 41,
-      "postOrderIndex": 41,
+      "index": 43,
+      "preOrderIndex": 43,
+      "index2": 42,
+      "postOrderIndex": 42,
       "cacheable": true,
       "optional": false,
       "orphan": false,
@@ -8512,7 +8271,7 @@
           "active": true,
           "explanation": "",
           "userRequest": "./modules/drag&drop",
-          "loc": "10:0-49",
+          "loc": "9:0-49",
           "moduleId": "./src/index.js",
           "resolvedModuleId": "./src/index.js"
         },
@@ -10072,6 +9831,256 @@
       "type": "module",
       "moduleType": "javascript/auto",
       "layer": null,
+      "size": 206,
+      "sizes": {
+        "javascript": 206
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/getDataFromLocalStorage.js",
+      "name": "./src/modules/getDataFromLocalStorage.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/getDataFromLocalStorage.js",
+      "index": 34,
+      "preOrderIndex": 34,
+      "index2": 32,
+      "postOrderIndex": 32,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+      "issuerName": "./src/modules/addTask.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "name": "./src/modules/addTask.js",
+          "id": "./src/modules/addTask.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/getDataFromLocalStorage.js",
+      "issuerId": "./src/modules/addTask.js",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "module": "./src/modules/addTask.js",
+          "moduleName": "./src/modules/addTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "resolvedModule": "./src/modules/addTask.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "1:0-47",
+          "moduleId": "./src/modules/addTask.js",
+          "resolvedModuleId": "./src/modules/addTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "module": "./src/modules/addTask.js",
+          "moduleName": "./src/modules/addTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "resolvedModule": "./src/modules/addTask.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "10:24-30",
+          "moduleId": "./src/modules/addTask.js",
+          "resolvedModuleId": "./src/modules/addTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "module": "./src/modules/clearCompleted.js",
+          "moduleName": "./src/modules/clearCompleted.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "resolvedModule": "./src/modules/clearCompleted.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "1:0-47",
+          "moduleId": "./src/modules/clearCompleted.js",
+          "resolvedModuleId": "./src/modules/clearCompleted.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "module": "./src/modules/clearCompleted.js",
+          "moduleName": "./src/modules/clearCompleted.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "resolvedModule": "./src/modules/clearCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "7:20-26",
+          "moduleId": "./src/modules/clearCompleted.js",
+          "resolvedModuleId": "./src/modules/clearCompleted.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
+          "module": "./src/modules/deleteTask.js",
+          "moduleName": "./src/modules/deleteTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
+          "resolvedModule": "./src/modules/deleteTask.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "1:0-47",
+          "moduleId": "./src/modules/deleteTask.js",
+          "resolvedModuleId": "./src/modules/deleteTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
+          "module": "./src/modules/deleteTask.js",
+          "moduleName": "./src/modules/deleteTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
+          "resolvedModule": "./src/modules/deleteTask.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "5:20-26",
+          "moduleId": "./src/modules/deleteTask.js",
+          "resolvedModuleId": "./src/modules/deleteTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
+          "module": "./src/modules/drag&drop.js",
+          "moduleName": "./src/modules/drag&drop.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
+          "resolvedModule": "./src/modules/drag&drop.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "1:0-47",
+          "moduleId": "./src/modules/drag&drop.js",
+          "resolvedModuleId": "./src/modules/drag&drop.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
+          "module": "./src/modules/drag&drop.js",
+          "moduleName": "./src/modules/drag&drop.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
+          "resolvedModule": "./src/modules/drag&drop.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "12:22-28",
+          "moduleId": "./src/modules/drag&drop.js",
+          "resolvedModuleId": "./src/modules/drag&drop.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
+          "module": "./src/modules/editTask.js",
+          "moduleName": "./src/modules/editTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
+          "resolvedModule": "./src/modules/editTask.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "1:0-47",
+          "moduleId": "./src/modules/editTask.js",
+          "resolvedModuleId": "./src/modules/editTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
+          "module": "./src/modules/editTask.js",
+          "moduleName": "./src/modules/editTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
+          "resolvedModule": "./src/modules/editTask.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "8:22-28",
+          "moduleId": "./src/modules/editTask.js",
+          "resolvedModuleId": "./src/modules/editTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js",
+          "module": "./src/modules/renderList.js",
+          "moduleName": "./src/modules/renderList.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js",
+          "resolvedModule": "./src/modules/renderList.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "1:0-47",
+          "moduleId": "./src/modules/renderList.js",
+          "resolvedModuleId": "./src/modules/renderList.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js",
+          "module": "./src/modules/renderList.js",
+          "moduleName": "./src/modules/renderList.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/renderList.js",
+          "resolvedModule": "./src/modules/renderList.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "4:22-28",
+          "moduleId": "./src/modules/renderList.js",
+          "resolvedModuleId": "./src/modules/renderList.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
+          "module": "./src/modules/updateStatus.js",
+          "moduleName": "./src/modules/updateStatus.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
+          "resolvedModule": "./src/modules/updateStatus.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "1:0-47",
+          "moduleId": "./src/modules/updateStatus.js",
+          "resolvedModuleId": "./src/modules/updateStatus.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
+          "module": "./src/modules/updateStatus.js",
+          "moduleName": "./src/modules/updateStatus.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
+          "resolvedModule": "./src/modules/updateStatus.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./getDataFromLocalStorage",
+          "loc": "6:22-28",
+          "moduleId": "./src/modules/updateStatus.js",
+          "resolvedModuleId": "./src/modules/updateStatus.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
       "size": 179,
       "sizes": {
         "javascript": 179
@@ -10141,6 +10150,228 @@
           "loc": "12:20-30",
           "moduleId": "./src/modules/addTask.js",
           "resolvedModuleId": "./src/modules/addTask.js"
+        }
+      ],
+      "usedExports": null,
+      "providedExports": [
+        "default"
+      ],
+      "optimizationBailout": [],
+      "depth": 2
+    },
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 187,
+      "sizes": {
+        "javascript": 187
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/saveAtLocalStorage.js",
+      "name": "./src/modules/saveAtLocalStorage.js",
+      "nameForCondition": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/saveAtLocalStorage.js",
+      "index": 36,
+      "preOrderIndex": 36,
+      "index2": 34,
+      "postOrderIndex": 34,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+      "issuerName": "./src/modules/addTask.js",
+      "issuerPath": [
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/index.js",
+          "name": "./src/index.js",
+          "id": "./src/index.js"
+        },
+        {
+          "identifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "name": "./src/modules/addTask.js",
+          "id": "./src/modules/addTask.js"
+        }
+      ],
+      "failed": false,
+      "errors": 0,
+      "warnings": 0,
+      "id": "./src/modules/saveAtLocalStorage.js",
+      "issuerId": "./src/modules/addTask.js",
+      "chunks": [
+        "index"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "module": "./src/modules/addTask.js",
+          "moduleName": "./src/modules/addTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "resolvedModule": "./src/modules/addTask.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "3:0-54",
+          "moduleId": "./src/modules/addTask.js",
+          "resolvedModuleId": "./src/modules/addTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "module": "./src/modules/addTask.js",
+          "moduleName": "./src/modules/addTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/addTask.js",
+          "resolvedModule": "./src/modules/addTask.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "14:4-22",
+          "moduleId": "./src/modules/addTask.js",
+          "resolvedModuleId": "./src/modules/addTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "module": "./src/modules/clearCompleted.js",
+          "moduleName": "./src/modules/clearCompleted.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "resolvedModule": "./src/modules/clearCompleted.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "2:0-54",
+          "moduleId": "./src/modules/clearCompleted.js",
+          "resolvedModuleId": "./src/modules/clearCompleted.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "module": "./src/modules/clearCompleted.js",
+          "moduleName": "./src/modules/clearCompleted.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/clearCompleted.js",
+          "resolvedModule": "./src/modules/clearCompleted.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "12:2-20",
+          "moduleId": "./src/modules/clearCompleted.js",
+          "resolvedModuleId": "./src/modules/clearCompleted.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
+          "module": "./src/modules/deleteTask.js",
+          "moduleName": "./src/modules/deleteTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
+          "resolvedModule": "./src/modules/deleteTask.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "2:0-54",
+          "moduleId": "./src/modules/deleteTask.js",
+          "resolvedModuleId": "./src/modules/deleteTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
+          "module": "./src/modules/deleteTask.js",
+          "moduleName": "./src/modules/deleteTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/deleteTask.js",
+          "resolvedModule": "./src/modules/deleteTask.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "12:2-20",
+          "moduleId": "./src/modules/deleteTask.js",
+          "resolvedModuleId": "./src/modules/deleteTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
+          "module": "./src/modules/drag&drop.js",
+          "moduleName": "./src/modules/drag&drop.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
+          "resolvedModule": "./src/modules/drag&drop.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "2:0-54",
+          "moduleId": "./src/modules/drag&drop.js",
+          "resolvedModuleId": "./src/modules/drag&drop.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
+          "module": "./src/modules/drag&drop.js",
+          "moduleName": "./src/modules/drag&drop.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/drag&drop.js",
+          "resolvedModule": "./src/modules/drag&drop.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "16:2-20",
+          "moduleId": "./src/modules/drag&drop.js",
+          "resolvedModuleId": "./src/modules/drag&drop.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
+          "module": "./src/modules/editTask.js",
+          "moduleName": "./src/modules/editTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
+          "resolvedModule": "./src/modules/editTask.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "2:0-54",
+          "moduleId": "./src/modules/editTask.js",
+          "resolvedModuleId": "./src/modules/editTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
+          "module": "./src/modules/editTask.js",
+          "moduleName": "./src/modules/editTask.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/editTask.js",
+          "resolvedModule": "./src/modules/editTask.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "10:2-20",
+          "moduleId": "./src/modules/editTask.js",
+          "resolvedModuleId": "./src/modules/editTask.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
+          "module": "./src/modules/updateStatus.js",
+          "moduleName": "./src/modules/updateStatus.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
+          "resolvedModule": "./src/modules/updateStatus.js",
+          "type": "harmony side effect evaluation",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "2:0-54",
+          "moduleId": "./src/modules/updateStatus.js",
+          "resolvedModuleId": "./src/modules/updateStatus.js"
+        },
+        {
+          "moduleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
+          "module": "./src/modules/updateStatus.js",
+          "moduleName": "./src/modules/updateStatus.js",
+          "resolvedModuleIdentifier": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/src/modules/updateStatus.js",
+          "resolvedModule": "./src/modules/updateStatus.js",
+          "type": "harmony import specifier",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./saveAtLocalStorage",
+          "loc": "8:2-20",
+          "moduleId": "./src/modules/updateStatus.js",
+          "resolvedModuleId": "./src/modules/updateStatus.js"
         }
       ],
       "usedExports": null,
@@ -11083,15 +11314,15 @@
         },
         {
           "name": "index.bundle.js",
-          "size": 223854
+          "size": 225191
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 269042,
+      "assetsSize": 270379,
       "auxiliaryAssets": [
         {
           "name": "index.bundle.js.map",
-          "size": 260144
+          "size": 260846
         },
         {
           "name": "runtime.bundle.js.map",
@@ -11099,7 +11330,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 303309,
+      "auxiliaryAssetsSize": 304011,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -11119,15 +11350,15 @@
         },
         {
           "name": "index.bundle.js",
-          "size": 223854
+          "size": 225191
         }
       ],
       "filteredAssets": 0,
-      "assetsSize": 269042,
+      "assetsSize": 270379,
       "auxiliaryAssets": [
         {
           "name": "index.bundle.js.map",
-          "size": 260144
+          "size": 260846
         },
         {
           "name": "runtime.bundle.js.map",
@@ -11135,7 +11366,7 @@
         }
       ],
       "filteredAuxiliaryAssets": 0,
-      "auxiliaryAssetsSize": 303309,
+      "auxiliaryAssetsSize": 304011,
       "children": {},
       "childAssets": {},
       "isOverSizeLimit": false
@@ -11150,8 +11381,8 @@
       "name": "HtmlWebpackCompiler",
       "hash": "4164709dde0ee9f27c4b",
       "version": "5.73.0",
-      "time": 109,
-      "builtAt": 1658532841682,
+      "time": 123,
+      "builtAt": 1658539882444,
       "publicPath": "",
       "outputPath": "/home/tlm-89/repos/Module2/week-3/My-To-Do-List/dist",
       "assetsByChunkName": {},

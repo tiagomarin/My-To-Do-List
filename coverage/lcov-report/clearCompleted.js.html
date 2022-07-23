@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for renderList.js</title>
+    <title>Code coverage report for clearCompleted.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="prettify.css" />
     <link rel="stylesheet" href="base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="index.html">All files</a> renderList.js</h1>
+        <h1><a href="index.html">All files</a> clearCompleted.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>7/7</span>
+                <span class='fraction'>10/10</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>2/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>6/6</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
@@ -79,48 +79,39 @@
 <a name='L14'></a><a href='#L14'>14</a>
 <a name='L15'></a><a href='#L15'>15</a>
 <a name='L16'></a><a href='#L16'>16</a>
-<a name='L17'></a><a href='#L17'>17</a>
-<a name='L18'></a><a href='#L18'>18</a>
-<a name='L19'></a><a href='#L19'>19</a>
-<a name='L20'></a><a href='#L20'>20</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">2x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">10x</span>
-<span class="cline-any cline-yes">173x</span>
+<a name='L17'></a><a href='#L17'>17</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">30x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">26x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">173x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import getArr from './getDataFromLocalStorage';
+import saveInLocalStorage from './saveAtLocalStorage';
+import clearList from './clearList';
+import renderList from './renderList';
 &nbsp;
-const renderList = () =&gt; {
-  const taskListArr = getArr();
-  const listPlaceholder = document.getElementById('list-placeholder');
-&nbsp;
+const clearCompleted = () =&gt; {
+  let taskListArr = getArr();
+  taskListArr = taskListArr.filter((task) =&gt; task.Completed !== true);
   for (let i = 0; i &lt; taskListArr.length; i += 1) {
-    const task = `&lt;li id="${taskListArr[i].Index}" class="task"&gt;
-      &lt;div class="task-info"&gt;
-        &lt;input class="checkbox" type="checkbox"&gt;
-        &lt;input class="task-text" type="text" value="${taskListArr[i].Description}" draggable="true"&gt;&lt;/input&gt;
-      &lt;/div&gt;
-      &lt;button class="delete-btn"&gt;&lt;i class="fa-solid fa-trash-can"&gt;&lt;/i&gt;&lt;/i&gt;&lt;/button&gt;
-    &lt;/li&gt;`;
-    listPlaceholder.innerHTML += task;
+    taskListArr[i].Index = i + 1;
   }
+  saveInLocalStorage(taskListArr);
+  clearList();
+  renderList();
 };
 &nbsp;
-export default renderList;
-&nbsp;</pre></td></tr></table></pre>
+export default clearCompleted;</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
