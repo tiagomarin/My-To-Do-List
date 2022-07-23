@@ -10,7 +10,7 @@ const renderList = () => {
         <input class="checkbox" type="checkbox">
         <input class="task-text" type="text" value="${taskListArr[i].Description}" draggable="true"></input>
       </div>
-      <button class="actions"><i class="fa-solid fa-trash-can"></i></i></button>
+      <button class="delete-btn"><i class="fa-solid fa-trash-can"></i></i></button>
     </li>`;
     listPlaceholder.innerHTML += task;
   }
