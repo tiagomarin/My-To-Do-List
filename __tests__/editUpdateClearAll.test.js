@@ -2,12 +2,11 @@
  * @jest-environment jsdom
 */
 import editTask from '../src/modules/editTask';
-import Add from '../src/modules/addTask';
-import deleteTask from '../src/modules/deleteTask';
 import getArr from '../src/modules/getDataFromLocalStorage';
 import saveInLocalStorage from '../src/modules/saveAtLocalStorage';
 import renderList from '../src/modules/renderList';
 import clearList from '../src/modules/clearList';
+import updateStatus from '../src/modules/updateStatus'
 
 describe('edit , update & clear All', () => {
   // set up environment
@@ -51,5 +50,32 @@ describe('edit , update & clear All', () => {
     })
   })
 
+  describe('update Completed property of tasks', () => {
+    // set up environment
+    // save fake values to local storage
+    const taskListArr = getArr();
+    for (let i = 1; i <= 10; i += 1) {
+      const task = { Description: `fake${i}`, Completed: false, Index: i };
+      taskListArr.push(task);
+    }
+    saveInLocalStorage(taskListArr);
+    clearList();
+    renderList();
 
+    // start update Completed status
+    test('property Completed was updated succesfully', () => {
+      let taskListArr = getArr();
+
+      const completedStatusBefore = taskListArr[1].Completed;
+
+      //user clicked
+      const userClickOnCheckBox = true;
+      updateStatus(1, userClickOnCheckBox);
+
+      taskListArr = getArr();
+      const completedStatusAfter = taskListArr[0].Completed;
+      expect(completedStatusAfter).not.toBe(false);
+      expect(completedStatusAfter).toBe(userClickOnCheckBox);
+    })
+  })
 })

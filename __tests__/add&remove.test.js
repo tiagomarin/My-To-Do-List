@@ -29,38 +29,32 @@ describe('add & remove', () => {
   document.getElementById('add-task-btn').onclick = Add;
 
   // start add tests
-  // describe('add task', () => {
-  //   test('only 1 li item is added in the DOM', () => {
-  //     const listPlaceholder = document.querySelector('#list-placeholder');
-  //     const listLengthBefore = listPlaceholder.children.length;
-  //     document.getElementById('task-text').value = 'fake task 1';
-  //     document.getElementById('add-task-btn').click();
-  //     const listLengthAfter = listPlaceholder.children.length;
-  //     expect(listLengthAfter).toBe(listLengthBefore + 1);
-  //   });
-  // });
+  describe('add task', () => {
+    test('only 1 li item is added in the DOM', () => {
+      const listPlaceholder = document.querySelector('#list-placeholder');
+      const listLengthBeforeAdd = listPlaceholder.children.length;
+      document.getElementById('task-text').value = 'fake task 1';
+      document.getElementById('add-task-btn').click();
+      const listLengthAfter = listPlaceholder.children.length;
+      expect(listLengthAfter).toBe(listLengthBeforeAdd + 1);
+    });
+  });
 
   describe('remove task', () => {
     // set up environment
-    // save fake values to local storage
-    const taskListArr = getArr();
-    for (let i = 1; i <= 10; i += 1) {
-      const task = { Description: `fake${i}`, Completed: false, Index: i };
-      taskListArr.push(task);
-    }
-    saveInLocalStorage(taskListArr);
+
     clearList();
     renderList();
 
     // start delete tests
     test('item is removed', () => {
       const listPlaceholder = document.querySelector('#list-placeholder');
-      const listLengthBefore = listPlaceholder.children.length;
-      deleteTask(5);
+      const listLengthBeforeRemove = listPlaceholder.children.length;
+      deleteTask(1);
       clearList();
       renderList();
       const listLengthAfter = listPlaceholder.children.length;
-      expect(listLengthAfter).toBe(listLengthBefore - 1);
+      expect(listLengthAfter).toBe(listLengthBeforeRemove - 1);
     });
   });
 });
